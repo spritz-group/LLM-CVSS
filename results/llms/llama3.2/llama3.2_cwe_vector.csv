@@ -1,0 +1,2466 @@
+cve_id,response
+CVE-2025-28874,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28875,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-28876,CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/I:N/A:N
+CVE-2025-28877,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28878,"AV:N/A
+AC:N
+PR:N
+UI:N
+S:High
+C: Partial
+I:None
+A:Full"
+CVE-2025-28879,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:P/A:P
+CVE-2025-28880,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-28881,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28882,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28883,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-28884,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28885,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28886,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-28887,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:H/A:H
+CVE-2025-28889,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-28890,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-28891,CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-28892,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28893,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/CR:H/I:H/A:H
+CVE-2025-28894,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28895,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:N
+CVE-2025-28896,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28897,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28898,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-28899,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-28900,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-28901,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28902,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L
+CVE-2025-28903,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-28904,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28905,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:C/A:H
+CVE-2025-28906,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:S 
+
+Note: 
+- AV:N (Attack Vector) indicates that the attack can be launched from outside the network, but not via local access.
+- AC:L (Confidentiality) is an indication of low to moderate risk due to potential exposure through data or input validation flaws.
+- PR:N (Privilege Required) means no special privileges are needed to exploit the vulnerability.
+- UI:N (User Interaction) indicates that user interaction is necessary, but does not imply the attack needs user involvement in a significant way.
+- S:N (Scope) represents a high scope indicating potential widespread exposure if left unaddressed.
+- C:H (Confidentiality) means there's a high risk to confidentiality as the vulnerability allows for potential unauthorized access or disclosure of sensitive data.
+- I:A (Integrity) is an indication that this vulnerability may impact system integrity, and data might be modified in some way, but it does not indicate loss of control over the data itself.
+- A:S (Availability) signifies that there's a high risk to availability, as exploitation could potentially lead to significant disruption or degradation of services."
+CVE-2025-28907,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-28908,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-28909,"AV:N
+AC:H
+PR:N
+UI:R
+S:C
+C:L
+I:L
+A:N"
+CVE-2025-2891,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28910,"AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+
+Note: The vector components are derived from the provided CWE-352 description and the general information about CSRF vulnerability.
+
+*   AV (Attack Vector): Network (N), as CSRF can be triggered by a malicious request sent over the network.
+*   AC (Attack Complexity): Low (L), since an attacker only needs to trick a client into making an unintentional request, which is relatively easy.
+*   PR (Privileges Required): None (N), as the vulnerability does not require any special privileges or permissions to exploit.
+*   UI (User Interaction): Required (R), as the user must interact with the affected application to make the unintended request.
+*   S (Scope): Changed (C), as the scope of CSRF is typically limited by the victim's privileges.
+*   C (Confidentiality): High (H), since an attacker who gains control over the victim's session can potentially expose sensitive data.
+*   I (Integrity): High (H), because an attacker could modify or delete data, and this could have integrity implications for the affected application.
+*   A (Availability): High (H) as a successful exploit of CSRF could result in the application becoming unavailable due to unintended actions by the attacker.
+
+This CVSS vector is generated based on general information about the CSRF vulnerability."
+CVE-2025-28911,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28912,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28913,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28914,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28915,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28916,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-28917,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-28918,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-28919,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-28920,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:None (N)
+S:Changed (C)
+C:Low (L)
+I:Low (L)
+A:High (H)
+
+Let me know if you need anything else!"
+CVE-2025-28921,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28922,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28923,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28924,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-28925,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-28926,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:A/A:S
+CVE-2025-28927,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28928,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28929,AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-28930,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-28931,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28932,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-28933,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28934,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-28935,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-28936,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-28937,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-28938,"AV:N
+AC:H
+PR:H
+UI:None
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-28939,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-2894,CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/I:H/A:H
+CVE-2025-28940,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-28941,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28942,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-28943,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-2901,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:P/C:H/I:H/A:P
+CVE-2025-2906,"AV:N/A
+
+AC:10/AA:N
+
+PR:N
+
+UI:N
+
+S:N
+
+C:N
+
+I:N
+
+A:N"
+CVE-2025-29266,AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:H
+CVE-2025-29766,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:L/A:N
+CVE-2025-29768,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:H
+CVE-2025-29770,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-29773,"To generate the CVSS vector for the given CVE, we'll analyze the provided information and apply it to the CVSS 3.1 format:
+
+- Attack Vector (AV): Network (N) - The attack can be launched from a network-based location.
+
+- Attack Complexity (AC): Medium (M) - This is a medium complexity vulnerability.
+
+- Privileges Required (PR): High (H) - To exploit this, an attacker needs high privileges, which includes administrative or similar level access to the system.
+
+- User Interaction (UI): None (N) - Although users can create accounts with the same email address, they do not need interaction with other systems to create these conflicts.
+
+- Scope (S): Changed (C) - The scope of this vulnerability is changed because an attacker could exploit it to gain unauthorized access to resources or execute arbitrary code.
+
+- Confidentiality (C): High (H) - This vulnerability affects the confidentiality aspect, as attackers can potentially read application data.
+
+- Integrity (I): High (H) - The integrity of the system and its data are also affected by this vulnerability.
+
+- Availability (A): High (H) - Although primarily an integrity issue, this could also impact availability because a successful attack might result in unauthorized access or modifications to resources that affect normal operation.
+
+Here is the generated CVSS vector:
+
+CVSS:3.1/AV:N/AC:M/PR:H/UI:N/S:C/C:H/I:H/A:H"
+CVE-2025-29778,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-29781,"AV:N
+
+AC:H
+
+PR:H
+
+UI:R
+
+S:C
+
+C:H
+
+I:H
+
+A:H
+
+This is the CVSS 3.1 vector for the given CVE-2025-29781:
+
+CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H"
+CVE-2025-29783,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29786,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-29788,AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-29795,"Based on the provided CVE and CWE data, I will extract the corresponding CVSS 3.1 vector.
+
+The given CWE (CWE-59) suggests that an attacker may be able to traverse the file system to unintended locations, potentially bypassing security mechanisms.
+
+Considering the CVSS 3.1 base score for a potential attack on this vulnerability:
+
+AV:N/AC:L/PR:N/UI:R/S:C/I:H/A:H
+
+Here's your final answer:
+ 
+CVSS:3.1/N/L/N/R/C/H/I/H/H"
+CVE-2025-29796,"Based on the provided CWE ID and description, I've extracted the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N"
+CVE-2025-29806,"Since there is no CVE description provided, I will generate a default CVSS 3.1 vector for CWE-843:
+
+CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-29807,"To generate the CVSS 3.1 vector for CVE-2025-29807 based on CWE-502, I'll follow these steps:
+
+1. Determine AV: The product leverages an attacker to obtain control via Network (N), which is adjacent to the system.
+2. AC: Due to complex object relationships and potential gadget chains, High complexity is used.
+3. PR: Low privileges are required for successful exploitation as the attacker will not require root access.
+4. UI: No user interaction is needed for this type of vulnerability.
+5. S: The scope includes both Unchanged (U) and Changed (C), reflecting changes to arbitrary data that was previously considered safe.
+6. C: High confidentiality impact due to modification potential leading to unexpected application state, such as shell generation.
+7. I: High integrity impact due to modification of expected data or objects without authorization.
+8. A: The product's availability could be significantly impacted by the untrusted deserialization process.
+
+Based on these considerations, here is the CVSS 3.1 vector for CVE-2025-29807:
+
+CVSS:3.1/N/A/L/R/None/U/C/H/I/H/A/H"
+CVE-2025-29814,"Based on the provided CWE-20 description and its consequences, I can generate a CVSS 3.1 vector for the given CVE. Here's the generated vector:
+
+CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-29815,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-29903,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-29904,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29908,"To generate the CVSS vector for CVE-2025-29908, we need to analyze the given CVE description and its corresponding CWE data.
+
+CVE ID: CVE-2025-29908
+CVE Description: Netty QUIC codec is a QUIC codec for netty which makes use of quiche. An issue was discovered in the codec. A hash collision vulnerability (in the hash map used to manage connections) allows remote attackers to cause a considerable CPU load on the server (a Hash DoS attack) by initiating connections with colliding Source Connection IDs (SCIDs). This vulnerability is fixed in 0.0.71.Final.
+
+CWE ID: CWE-407
+CWE Description: An algorithm in a product has an inefficient worst-case computational complexity that may be detrimental to system performance and can be triggered by an attacker, typically using crafted manipulations that ensure that the worst case is being reached.
+
+Based on the provided information, I will categorize it according to CVSS 3.1 standard:
+
+CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:L/A:L"
+CVE-2025-29914,"AV:N
+AC:L
+PR:H
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-29922,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-29923,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29927,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-29928,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29929,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-29932,"AV:N
+AC:H
+PR:N
+UI:R
+S:C
+C:L
+I:H
+A:N"
+CVE-2025-29981,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29982,"AV:Network (N)/AC:Low (L)/PR:None (N)/UI:None (N)/S:Changed (C)/C:Confidentiality (H)/I:Integrity (H)/A:Availability (H)
+
+Let me know if you need any further assistance."
+CVE-2025-29987,CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-29991,"Based on the provided CVE and CWE description, I'm unable to generate a specific CVSS vector for the given issue due to the lack of detailed technical specifications and the fact that the exact impact and characteristics are not clearly described.
+
+However, I can suggest general CVSS scoring based on typical impacts of similar vulnerabilities. Keep in mind this is an estimate and might need adjustments based on actual findings from vulnerability assessments.
+
+
+AV:N/AC:L/PR:N/UI:None/S:Changed/C:H/I:H/A:H"
+CVE-2025-30004,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-30005,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:N/A:N
+CVE-2025-30006,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:P/A:P
+CVE-2025-30066,"Based on the provided CVE and CWE information, I will generate the corresponding CVSS 3.1 vector in the standard format:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-30074,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:None (N)
+S:Changed (C)
+C:Low (L)
+I:None (N)
+A:None (N)"
+CVE-2025-30076,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30077,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30089,"AV:N - CVE-2025-30089 mishandles ANSI escape sequences and does not have a network exposure.
+
+AC:L - The vulnerability is due to a flaw in the handling of ANSI escape sequences, which requires low-level knowledge of programming languages.
+
+PR:N - No privileges are required for an attacker to exploit this vulnerability.
+
+UI:N - User interaction is not necessary to exploit this vulnerability as it can be triggered remotely by sending an ANSI escape sequence.
+
+S:C - The impact on confidentiality and integrity is changed due to the vulnerability being in an application that allows untrusted input, which may lead to unintended modifications of data.
+
+C:H - The vulnerability affects the confidentiality of the application by allowing the injection of potentially malicious code.
+
+I:H - The vulnerability also impacts the integrity of the application by allowing the modification or destruction of data.
+
+A:N - The availability is not directly impacted because the application will continue to function but with potentially unexpected behavior."
+CVE-2025-30090,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-3011,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-30143,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30144,"Based on the provided CVE and CWE information, here's a generated CVSS 3.1 vector for the vulnerability:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/I:H/A:H"
+CVE-2025-30149,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30152,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30153,"Based on the provided CVE and CWE data, I can generate the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/I:H/A:H"
+CVE-2025-30154,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30155,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30157,AV:Network (N)/AC:High (H)/PR:None (N)/UI:None (N)/S:Changed (C)/C:Low (L)/I:None (N)/A:High (H)
+CVE-2025-30162,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/I:H/A:H
+CVE-2025-30163,"To generate the CVSS vector for CVE-2025-30163 based on CWE-863 and the provided description, let's break down the components:
+
+- **AV (Attack Vector):** Given the scenario, this would be Adjacent (A) because an attacker doesn't need physical access to exploit this vulnerability but can manipulate network traffic or configuration. However, without a clear path of attack like sending malicious packets directly at the Cilium dataplane, I'd rate it as Network (N).
+- **AC (Attack Complexity):** High (H). The impact of CWE-863, bypassing intended access restrictions to read and modify sensitive data, suggests high complexity due to the nature of the vulnerability.
+- **PR (Privileges Required):** Low (L) because attackers need to have elevated privileges, but this is not as straightforward as requiring root or administrator-level access.
+- **UI (User Interaction):** None (N). This is a server-side vulnerability that relies on configuration and network traffic manipulation rather than user interaction.
+- **S (Scope):** Changed (C). Given the potential for an attacker to read sensitive data without needing direct access, this could result in a changed scope of impact.
+- **C (Confidentiality):** High (H) because the vulnerability impacts confidentiality by allowing unauthorized reading of sensitive data.
+- **I (Integrity):** Moderate (M). While not entirely correct due to the specifics of CWE-863, integrity is impacted but may be less critical than confidentiality in this case. I'm choosing a moderate score as the exact impact on integrity isn't specified but would typically lean higher in comparison to C.
+- **A (Availability):** None (N) or possibly Low (L), given that availability issues are secondary to confidentiality and integrity impacts. However, without specific details about system resource consumption, this component is harder to accurately score.
+
+Based on these considerations:
+
+CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:M/A:N"
+CVE-2025-30164,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-30168,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30179,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30203,AV:N/AC:L/PR:N/UI:None/S:Changed/C:High/I:High/A:High
+CVE-2025-30204,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30205,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:N
+CVE-2025-30208,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30209,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30211,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:H/A:H
+CVE-2025-30216,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30219,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30223,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30225,"Based on the provided CVE description and CWE data, I've extracted the following CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-30232,CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30234,"Based on the provided CVE and CWE data, I will generate the corresponding CVSS 3.1 vector in the standard format:
+
+CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:L/A:L"
+CVE-2025-30235,AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30236,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30258,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30342,"AV:N/A
+AC:N/A
+PR:N/A
+UI:N/A
+S:UNP
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-30343,"AV:N
+AC:H
+PR:L
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30344,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30345,"AV:N 
+AC:L 
+PR:N 
+UI:N 
+S:C 
+C:H 
+I:H 
+A:H"
+CVE-2025-30346,AV:N/AC:H/PR:N/UI:None/S:U/C:H/I:H/A:H
+CVE-2025-30347,"AV:N
+AC:H
+PR:L
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30348,"Based on the provided CVE description and its corresponding CWE data, here's the generated CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H"
+CVE-2025-30349,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:L/A:P
+CVE-2025-30350,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30351,"To generate the CVSS vector for the given CVE, we need to analyze the provided information and map it to the corresponding CVSS 3.1 components.
+
+Based on the CWE description (CWE-672), this vulnerability is related to using a resource after it has been expired, released, or revoked. Given the details of the Directus API issue:
+
+- AV: Adjacent (A) - The attacker uses information obtained in another way.
+- AC: Medium (M) - The attack complexity of exploiting the vulnerability might require some knowledge and effort.
+- PR: None (N) - No special privileges are needed to exploit this vulnerability.
+- UI: None (N) - User interaction is not required for an unprivileged attacker to exploit this vulnerability.
+- S: Changed (C) - The scope has changed, as the attacker can access resources they shouldn't be able to after being suspended.
+- C: High (H) - Confidentiality could be compromised by allowing a user with expired status to access sensitive data.
+- I: Medium (M) - Integrity is at risk because the vulnerability allows for unauthorized access and potential modification of sensitive information.
+- A: High (H) - Availability might be impacted if sensitive data can be accessed by users who shouldn't have it.
+
+Therefore, the CVSS vector for CVE-2025-30351 is:
+
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:M/A:H"
+CVE-2025-30352,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:N
+CVE-2025-30353,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:H/A:N
+CVE-2025-30355,"To generate the CVSS 3.1 vector for CVE-2025-30355 based on CWE-20:
+
+AV: Network (N)
+AC: High (H)
+PR: None (N)
+UI: Required (R)
+S: Changed (C)
+C: High (H)
+I: High (H)
+A: High (H)
+
+The final CVSS 3.1 vector for the given CVE is:
+CVSS:3.1/AV:N/AC:H/PR:N/UI=R/S:C/C:H/I:H/A:H"
+CVE-2025-30358,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30368,"Based on the provided CVE and CWE information, I've extracted the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:H/A:H"
+CVE-2025-30369,"Based on the provided information, I extracted the corresponding CVSS 3.1 vector for CVE-2025-30369:
+
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:H/A:H"
+CVE-2025-30370,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+CVE-2025-30406,"Based on the CVE description and its corresponding CWE data, here is the generated CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-3047,"AV:N/A
+AC:5/7
+PR:N/A
+UI:N/A
+S:U/R/L
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-30472,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-3048,"AV:N/A
+AC:5
+PR:N
+UI:N
+S:N
+C:N
+I:N
+A:N"
+CVE-2025-30520,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30521,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-30522,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-30523,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:N
+CVE-2025-30524,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30525,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:P/A:P
+CVE-2025-30526,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30527,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30528,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30529,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30530,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-30531,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30532,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:A/A:S
+CVE-2025-30533,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30534,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30535,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-30536,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:P
+CVE-2025-30537,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30538,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30539,"AV:N/A 
+AC:L 
+PR:N 
+UI:N 
+S:U 
+C:N 
+I:P 
+A:N"
+CVE-2025-30540,"AV:N/A
+AC:5
+PR:N/A
+UI:N/A
+S:N/A
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-30541,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30542,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30543,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)
+
+Let me know if I can be of any further assistance."
+CVE-2025-30544,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-30545,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30546,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30547,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-30548,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30549,AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
+CVE-2025-30550,"AV:N
+AC:L
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30551,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30552,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30553,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:N
+CVE-2025-30554,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30555,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30556,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N
+CVE-2025-30557,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-30558,CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30559,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:H
+CVE-2025-30560,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30561,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30563,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:P/A:P
+CVE-2025-30564,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-30565,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:H
+CVE-2025-30566,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-30567,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30568,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30569,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30570,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30571,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30572,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30573,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:C/A:P
+CVE-2025-30574,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:A/C:H/I:N/A:N
+CVE-2025-30575,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:P/A:L
+CVE-2025-30576,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-30577,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30578,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30579,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-30580,CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30581,"AV:P
+AC:L
+PR:H
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30583,"AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+
+Let me know if you need any further assistance!"
+CVE-2025-30584,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30585,"AV:N
+AC:H
+PR:L
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30586,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30587,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30588,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30589,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:P
+CVE-2025-30590,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30591,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30592,"AV:N
+AC:H
+PR:L
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30593,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-30594,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30595,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:A/A:N
+CVE-2025-30596,"AV:N/A
+AC:8/8
+PR:N/A
+UI:N/A
+S:N/A
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-30597,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:A/A:N
+CVE-2025-30598,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30599,"AV:N/A
+AC:N/A
+PR:N/A
+UI:N/A
+S:High
+C:Partial
+I:None
+A:High"
+CVE-2025-30600,"AV:N/A  
+AC:H  
+PR:N  
+UI:N  
+S:U  
+C:L  
+I:P  
+A:N"
+CVE-2025-30601,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30602,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-30603,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30604,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30605,"AV:N
+AC:H
+PR:L
+UI:None
+S:C
+C:High
+I:High
+A:High"
+CVE-2025-30606,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-30607,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
+CVE-2025-30608,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30609,"Based on the provided information, I will attempt to generate the CVSS 3.1 vector for CVE-2025-30609.
+
+
+CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H"
+CVE-2025-30610,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-30611,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-30612,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-30613,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:P
+CVE-2025-30614,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30615,AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-30616,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-30617,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-30619,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30620,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-30621,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:H
+CVE-2025-30622,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-30623,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-3063,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:Confidentiality:Low (L)
+I:Integrity:Low (L)
+A:Availability:None (N)"
+CVE-2025-30741,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30742,"To generate the CVSS 3.1 vector for the given CVE and CWE, we need to analyze the provided information and assign values based on the defined components:
+
+AV: Network (N) - As the vulnerability is related to an HTTP server (httpd.c in atophttpd 2.8.0), it's reasonable to assume that the attack vector is Network.
+
+AC: High (H) - The CWE-193 describes an incorrect maximum or minimum value calculation, which can lead to undefined behavior and crashes.
+
+PR: None (N) - There is no indication of any specific privileges being required for this vulnerability.
+
+UI: Required (R) - Since the vulnerability involves user interaction through HTTP requests, it's reasonable to assume that some level of user interaction is required.
+
+S: Changed (C) - The vulnerability affects a 1024-character string (req string), indicating that the scope has changed due to this specific input.
+
+C: High (H) - This CWE describes a scenario where data corruption can occur, affecting confidentiality and integrity.
+
+I: High (H) - Similar to the Confidentiality score, as the vulnerability involves modifying memory, which affects integrity.
+
+A: Unchanged (U) - The provided information doesn't suggest any impact on availability; it only mentions potential DoS conditions that might lead to crashes or instability.
+
+The CVSS 3.1 vector for CVE-2025-30742 and CWE-193 would be:
+
+CVSS:3.1/N/H/N/R/C:H/I:H/U"
+CVE-2025-30763,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30764,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-30765,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30766,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:N
+CVE-2025-30767,AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30768,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30769,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:H
+CVE-2025-30770,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30771,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:A/A:S
+CVE-2025-30772,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30773,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30774,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30775,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-30776,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-30777,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30778,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30779,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-30780,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30781,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30782,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:A/A:N
+CVE-2025-30783,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:H
+CVE-2025-30784,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/I:P/A:P
+CVE-2025-30785,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-30786,"AV:N/A
+AC:H
+PR:N
+UI:N
+S:U
+C:N
+I:N
+A:N"
+CVE-2025-30787,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:L/A:N
+CVE-2025-30788,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30789,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30790,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30791,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30792,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-30793,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-30794,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30795,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-30796,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30797,"AV:P
+AC:L
+PR:N
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30798,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:H/C:L/I:A/A:N
+CVE-2025-30799,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-30800,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-30801,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30802,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-30803,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-30804,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-30805,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30806,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30807,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30808,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30809,"AV:N
+AC:H
+PR:N
+UI:None
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30810,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30811,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30812,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30813,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-30814,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30815,CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30816,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30817,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30818,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-30819,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-3082,"Based on the provided CVE and CWE information, I would generate the following CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H"
+CVE-2025-30820,CVSS:3.1/AV:N/AC:L/PR:2.0/UI:N/S:U/C:N/I:A/A:N
+CVE-2025-30821,AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30822,AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30823,CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/I:N/A:N
+CVE-2025-30824,"AV:N
+AC:L
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30825,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-30826,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30827,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30828,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-30829,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-3083,"Based on the provided CVE and CWE information, I would generate the following CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H"
+CVE-2025-30830,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30831,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30832,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30833,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-30834,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30835,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30836,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:L
+CVE-2025-30837,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-30838,"AV:N/A  
+AC:L  
+PR:N  
+UI:N  
+S:INF  
+
+C:CONF  
+
+I:PU  
+
+A:P"
+CVE-2025-30839,AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-3084,"To generate the CVSS 3.1 vector for CVE-2025-3084 based on CWE-703, we can break down the components as follows:
+
+- Attack Vector (AV): Adjacent (A) because a malicious user could potentially launch an attack from an adjacent network segment.
+- Attack Complexity (AC): High (H) since dealing with such exceptions that rarely occur would be difficult and time-consuming.
+- Privileges Required (PR): Low (L) as the exploit doesn’t require elevated privileges to work.
+- User Interaction (UI): None (N) because it’s an automated attack, not one where a user is directly involved.
+- Scope (S): Unchanged (U) since the impact of the vulnerability does not change based on how the system is used or configured.
+- Confidentiality (C): High (H) as the bug affects the confidentiality aspect by allowing unauthorized access to sensitive information under certain conditions.
+- Integrity (I): Low (L) because the primary effect of this issue is not on altering data, but rather on causing crashes and potential information disclosure.
+- Availability (A): High (H) since there’s a high risk that exploiting this vulnerability would impact the system's availability.
+
+So, the CVSS vector for CVE-2025-3084 based on CWE-703 would be:
+
+CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H"
+CVE-2025-30840,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-30841,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30842,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30843,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-30844,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30845,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30846,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30847,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30848,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30849,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-3085,CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-30850,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30851,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-30852,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-30853,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30854,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30855,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30856,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30857,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30858,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:A/A:N
+CVE-2025-30859,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30860,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-30861,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30862,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30863,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30864,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30865,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30866,AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30867,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-30868,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30869,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30870,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30871,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-30872,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30873,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:A/A:S
+CVE-2025-30874,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
+CVE-2025-30876,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30877,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30878,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-30879,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-30880,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30881,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30882,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
+CVE-2025-30883,AV:N/AC:H/PR:N/UI:None/S:C/C:H/I:H/A:H
+CVE-2025-30884,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30885,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30886,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30887,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-30888,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30889,"To generate the CVSS vector for the given CVE and CWE, we need to analyze the provided information:
+
+- AV: Network (N) - The vulnerability allows an attacker to exploit it without needing physical access or being adjacent to the system.
+- AC: High (H) - This is because exploiting this vulnerability involves a high level of difficulty due to its nature as an injection attack, requiring knowledge of object properties and behavior in PickPlugins Testimonial Slider.
+- PR: Low (L) - The attacker does not require any privileges to exploit this vulnerability; it's solely based on input data manipulation.
+- UI: Required (R) - This is because user interaction is necessary for the exploitation. The vulnerability relies on manipulating the deserialized object or injecting malicious code, which requires some level of user action or a configuration option that allows such actions.
+- S: Changed (C) - The scope has changed due to the impact it can cause by allowing modification of unexpected objects or data. This affects both availability and integrity, as described in CWE-502.
+- C: High (H) - Confidentiality is affected because this vulnerability can lead to unauthorized access to sensitive information if an attacker gains control over the deserialized object.
+- I: High (H) - Integrity is also affected due to the possibility of modifying unexpected objects or data that was assumed to be safe, which could result in unintended actions or data loss.
+- A: High (H) - Availability can be impacted as the system may not terminate as expected based on its internal logic for termination, potentially leading to resource consumption issues.
+
+CVSS:3.1/N/H/L/R/R/C:H/I:H/A:H"
+CVE-2025-30890,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:A/A:H
+CVE-2025-30891,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:P/A:N
+CVE-2025-30892,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30893,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30894,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30895,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30896,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:High (H)"
+CVE-2025-30897,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-30898,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:P/A:N
+CVE-2025-30899,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:N
+CVE-2025-30900,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30901,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:F/C:H/I:N/A:N
+CVE-2025-30902,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-30903,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:A/A:C
+CVE-2025-30904,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:P
+CVE-2025-30905,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-30906,CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30907,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-30908,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30909,"AV:N  // Network
+AC:H  // High
+PR:L  // Low
+UI:R  // Required
+S:C  // Changed
+C:H  // High
+I:H  // High
+A:H  // High"
+CVE-2025-30910,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30911,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
+CVE-2025-30912,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-30913,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-30914,"Based on the provided CVE and CWE data, I am unable to generate a CVSS 3.1 vector as there isn't enough information about the severity of this issue. However, here is the standard format:
+
+CVSS:3.1/AV:N/Ac:L/Pr:N/UI:N/S:C/I:H/A:N"
+CVE-2025-30915,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30916,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-30917,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30918,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-30919,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-30920,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30921,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-30922,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:P
+CVE-2025-30923,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30924,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-30925,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30926,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30961,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-30963,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-3097,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:P/A:L
+CVE-2025-30971,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-3098,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:N
+CVE-2025-30987,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-3099,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31001,"Based on the provided CVE and CWE information, I will generate the corresponding CVSS 3.1 vector:
+
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-31010,"AV:N
+AC:H
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31016,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31024,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31031,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31043,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-3105,CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31073,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31074,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31075,"AV:N
+AC:L
+PR:N
+UI:N
+S:C
+C:H
+I:H
+A:H
+
+Note: This vector is generated based on the provided CVE and CWE information. The actual CVSS score and vector may vary depending on additional factors, such as the specific vulnerability in the MicroPayments software, the severity of the attack, and other relevant details."
+CVE-2025-31076,"Based on the provided CVE and CWE information, I'm unable to generate a CVSS 3.1 vector as the given information does not specify any of the attack vectors, complexity, privileges required, user interaction, scope, confidentiality, integrity or availability that are necessary for generating this type of vector.
+
+If you can provide more details about these factors, I'll be happy to help."
+CVE-2025-31077,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31078,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:P/A:N
+CVE-2025-31079,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31080,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31081,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31082,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31083,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31084,AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31085,CVSS:3.1/AV:N/AC:L/PR:N/UI:P/S:N/C:H/I:C/A:H
+CVE-2025-31086,"AV:N/A
+AC:N/A
+PR:N/A
+UI:N/A
+S:High
+C:High
+I:None
+A:High"
+CVE-2025-31087,"AV:N
+AC:H
+PR:L
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31088,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31089,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:L/I:P/A:N
+CVE-2025-31090,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:A/A:P
+CVE-2025-31091,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31092,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31093,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31094,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-31095,"To generate the CVSS 3.1 vector for CVE-2025-31095, we need to analyze the given information and map it to the corresponding CVSS 3.1 scoring system.
+
+Based on the provided CWE ID (CWE-288) and its description, we can infer that this vulnerability is a ""Path of Execution"" type vulnerability, which means an attacker can bypass authentication by exploiting an alternate path or channel. The given options for each component will be selected based on this analysis.
+
+
+AV: Network (N)
+AC: High (H)
+PR: None (N)
+UI: Required (R)
+S: Changed (C)
+C: Low (L)
+I: High (H)
+A: High (H)
+
+CVSS:3.1/AV:N/AC:H/PR:N/UI.R/S:C/C:L/I:H/A:H"
+CVE-2025-31096,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31097,CVSS:3.1/AV:N/AC:L/PR:2.0/UI:N/S:C/I:P/A:N
+CVE-2025-31098,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31099,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31101,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31102,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+CVE-2025-31116,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:High (H)"
+CVE-2025-31119,CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31123,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31124,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31125,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:H
+CVE-2025-31126,"Based on the provided CVE and CWE information, I can generate a CVSS 3.1 vector as follows:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-31127,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:Low (L)
+A:None (N)"
+CVE-2025-31129,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31130,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31131,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31132,"AV:N
+AC:L
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31135,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31139,"To generate the CVSS 3.1 vector for CVE-2025-31139 based on its description and corresponding CWE-532, we'll break down the information into the required components.
+
+### CVSS Components Breakdown:
+
+- **AV (Attack Vector)**: Adjacent (A) - An attacker can get access to local resources that are needed.
+- **AC (Attack Complexity)**: Low (L)
+- **PR (Privileges Required)**: None (N) - No privileges are required for exploitation.
+- **UI (User Interaction)**: None (N) - Exploitation does not require user interaction.
+- **S (Scope)**: Changed (C) - Information revealed in log files changes the exposure scope.
+- **C (Confidentiality)**: High (H)
+- **I (Integrity)**: Low (L) - Attacker has reduced capability to make lasting changes compared to reading.
+- **A (Availability)**: None (N)
+
+### CVSS 3.1 Vector Generation:
+
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N"
+CVE-2025-31140,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31141,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31160,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31161,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31162,"AV: Local (L)
+AC: High (H)
+PR: Low (L)
+UI: None (N)
+S: Changed (C)
+C: High (H)
+I: High (H)
+A: High (H)"
+CVE-2025-31163,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31164,"AV:N - 
+
+AC:L 
+
+PR:N 
+
+UI:R 
+
+S:C 
+
+C:H 
+
+I:H 
+
+A:H"
+CVE-2025-31176,AV:Network (N)/AC:High (H)/PR:None (N)/UI:Required (R)/S:Unchanged (U)/C:Confidentiality/High (H)/I:Integrity/High (H)/A:Availability/High (H)
+CVE-2025-31178,"AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:H/A:H
+
+This CVSS 3.1 vector is generated based on the CWE-476 description and its corresponding impact details, including:
+
+- Attack Vector (AV): Network
+- Attack Complexity (AC): High
+- Privileges Required (PR): None
+- User Interaction (UI): None
+- Scope (S): Changed
+- Confidentiality (C): Low
+- Integrity (I): High
+- Availability (A): High
+
+This vector is generated based on the provided CWE and its impact details."
+CVE-2025-31179,AV:N/AC:H/PR:H/UI:N/S:C/I:H/A:H
+CVE-2025-31180,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31181,AV:N/AC:L/PR:N/UI:None/S:U/C:H/I:H/A:H
+CVE-2025-31282,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31283,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31284,"To generate the CVSS vector for CVE-2025-31284 based on the provided information:
+
+AV: Adjacent (A)
+AC: High (H)
+PR: None (N)
+UI: Required (R)
+S: Changed (C)
+C: High (H)
+I: Low (L)
+A: High (H)"
+CVE-2025-31285,"Based on the CVE and CWE description provided, I will generate the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/I:H/A:N"
+CVE-2025-31286,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31335,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31376,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31381,AV:N/AC:L/PR:N/UI:None/S:C/C:H/I:H/A:H
+CVE-2025-31384,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI,None (N)
+S:Changed (C)
+C:Low (L)
+I:None (N)
+A:Unchanged (U)"
+CVE-2025-31386,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31387,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31389,"AV:N/A
+AC:10/AF:L/RR:UNP/P:-/CU:S/I:-/A:N
+CVSS:3.1/AV:N/AC:10/PR:7/L:10/RU:X/St:X 
+CVSS v3.1 Base Score: 350 (Extreme Confidence)
+CVSS Vector: AV:N AC:10 PR:7 L:10 RU:X St:X"
+CVE-2025-31403,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-31405,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-31406,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31407,CVSS:3.1/AV:N/AC:L/PR:N/UI:P/S:N/C:H/I:A/H:OFF/R:F/E:F
+CVE-2025-31408,AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:N
+CVE-2025-31409,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31410,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31412,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31414,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31415,"AV:N
+AC:H
+PR:L
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31416,"AV:N/A
+AC:8/8
+PR:N/A
+UI:N/A
+S:UNP
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-31417,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31418,"AV:N/A 
+AC:4 
+PR:N 
+UI:N 
+S:U 
+C:N 
+I:N 
+A:N"
+CVE-2025-31419,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31420,CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:N
+CVE-2025-31421,"Based on the provided CVE and CWE data, I would extract the following CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:N/A:H
+
+Here's the explanation of each component based on the given information:
+- AV: Network (N) - The vulnerability can be exploited over a network.
+- AC: Low (L) - The attack complexity is relatively low, requiring minimal effort to exploit the vulnerability.
+- PR: High (H) - High privileges are required to exploit this vulnerability.
+- UI: None (N) - User interaction is not required to exploit the vulnerability.
+- S: Changed (C) - The scope of the vulnerability has changed from its normal state, making it more critical.
+- C: High (H) - The confidentiality impact is high due to sensitive information being exposed.
+- I: None (N) - There's no integrity impact, as the vulnerable system itself isn't affected but rather external data.
+- A: High (H) - The availability impact is also high, as successful exploitation can lead to data loss or unauthorized access."
+CVE-2025-31431,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/I:C/H:High/A:P
+CVE-2025-31432,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-31433,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:P
+CVE-2025-31434,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-31435,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31436,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:S
+CVE-2025-31437,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-31438,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31439,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:N/A:H
+CVE-2025-31440,"AV:N
+AC:H
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31441,"AV:N/A
+AC:7/8
+PR:N
+UI:N
+S:U
+C:N
+I:A
+A:N"
+CVE-2025-31442,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31443,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31444,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-31445,CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31446,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31447,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:P/A:N
+CVE-2025-31448,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31449,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31450,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:C/A:H
+CVE-2025-31451,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31452,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-31453,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31454,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31455,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31456,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31457,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31458,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:H
+CVE-2025-31459,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:H
+CVE-2025-31460,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31461,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31462,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31463,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31464,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31465,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31466,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31467,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31468,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:N
+CVE-2025-31469,"AV:N 
+AC:L 
+PR:N 
+UI:R 
+S:C 
+C:H 
+I:H 
+A:H"
+CVE-2025-31470,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:P/C:H/I:H/A:P
+CVE-2025-31471,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31472,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:P
+CVE-2025-31473,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31474,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31479,"Based on the provided CVE description and CWE data, here's the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N"
+CVE-2025-31480,"AV:Network (N)
+AC:High (H)
+PR:Low (L)
+UI:Required (R)
+S:Changed (C)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:High (H)"
+CVE-2025-31481,"AV:N/AC:L/PR:N/UI:N/S:C 
+
+CWE ID: CVE-2025-31481
+ 
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+CVE-2025-31485,"Based on the CVE and CWE provided, I would generate the following CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:N/A:N"
+CVE-2025-31486,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:L/A:N
+CVE-2025-31487,AV:N - AC:L - PR:N - UI:R - S:C - C:H - I:H - A:H
+CVE-2025-31525,"AV:N  # Network
+AC:H  # High
+PR:H  # High
+UI:R  # Required
+S:C  # Changed
+C:L  # Low
+I:L  # Low
+A:N  # None"
+CVE-2025-31526,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31527,"Based on the provided information, I could not find any information about a CVE with ID CVE-2025-31527 or its corresponding CWE data.
+
+However, based on the description you provided for CWE-918, here is the CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:L/PR:N/UI:None/S:Unchanged/C:H/I:H/A:H"
+CVE-2025-31528,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31529,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:L
+I:L
+A:N"
+CVE-2025-31530,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H
+
+This CVSS vector corresponds to the given CVE description and its corresponding CWE data."
+CVE-2025-31531,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-31532,"AV:N/A
+AC:7/7/5/0/0
+PR:N/A
+UI:X
+S:X
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-31533,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31534,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31535,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-31536,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31537,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:A/C:H/I:A/A:H
+CVE-2025-31538,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31539,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31540,"AV:N
+AC:H
+PR:N
+UI:None
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31541,"AV: Network (N)
+AC: High (H)
+PR: None (N)
+UI: Required (R)
+S: Changed (C)
+C: High (H)
+I: High (H)
+A: High (H)"
+CVE-2025-31542,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31543,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31544,AV:N/AC:H/PR:N/UI:None/S:Unchanged/C:N/I:N/A:N
+CVE-2025-31545,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31546,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31547,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31548,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31549,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-3155,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-31550,"Based on the provided CVE and CWE information, here's the generated CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/I:H/A:H"
+CVE-2025-31551,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31552,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31553,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31554,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31555,AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31556,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31557,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31558,"Based on the given CVE and CWE data, here is the generated CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/I:L/A:N"
+CVE-2025-31559,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-31560,"Based on the provided CVE and CWE data, I would generate the following CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/I:H/A:N"
+CVE-2025-31561,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31562,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-31563,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:P
+CVE-2025-31564,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31566,CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/I:N/A:N
+CVE-2025-31567,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31568,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31569,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31570,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31571,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31572,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31573,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31574,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31575,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31576,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:Low (L)"
+CVE-2025-31577,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31578,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31579,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31580,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Unchanged (U)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:High (H)"
+CVE-2025-31581,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31582,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:A/A:N
+CVE-2025-31583,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31584,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31585,CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-31586,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:N
+CVE-2025-31587,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:L
+CVE-2025-31588,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31589,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31590,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:L
+CVE-2025-31591,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-31592,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:P
+CVE-2025-31593,"AV:N/A
+AC:8/8
+PR:N/A
+UI:N/A
+S:UNP 
+C:HET
+I:None
+A:High"
+CVE-2025-31594,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31595,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31596,"AV:N
+AC:H
+PR:N
+UI:R
+S:C
+C:L
+I:L
+A:N"
+CVE-2025-31597,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31598,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-31600,CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31601,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31602,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31603,AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31604,"AV:N 
+AC:H 
+PR:H 
+UI:N 
+S:C 
+C:H 
+I:H 
+A:H"
+CVE-2025-31605,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31606,"AV:N
+AC:H
+PR:H
+UI:None
+S:C
+C:H
+I:H
+A:H
+
+This is the generated CVSS 3.1 vector for CVE-2025-31606 based on the provided CWE-862 description."
+CVE-2025-31607,AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:P/A:N
+CVE-2025-31608,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31609,"AV:N
+AC:L
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31610,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:H/C:H/I:H/A:H
+CVE-2025-31611,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-31612,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31613,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31614,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31615,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31616,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31617,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31618,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:None (N)
+S:Changed (C)
+C:Confidentiality (H)
+I:Integrity (H)
+A:Availability (H)"
+CVE-2025-31619,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:P/A:N
+CVE-2025-31620,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-31621,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31622,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31623,CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-31624,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31625,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:S
+CVE-2025-31626,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-31627,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:P
+CVE-2025-31628,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31629,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-31729,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31730,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31731,"AV:N/A
+AC:10/AF:Y/AF:Y
+PR:N/I:N
+UI:N/S:N
+S:INF/L:INF/RL:INF
+C:CRITICAL
+I:NULL
+A:UNIQUE"
+CVE-2025-31732,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31733,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-31734,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31735,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:N
+CVE-2025-31736,"AV:N
+AC:L
+PR:N
+UI:N
+S:C
+C:H
+I:H
+A:H
+
+Note: The above CVSS vector is generated based on the provided CVE description and CWE data. However, please note that the actual severity of a vulnerability can only be determined by a thorough analysis of the affected system and code."
+CVE-2025-31737,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:L/A:L
+CVE-2025-31738,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31739,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI,None (N)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31740,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:S
+CVE-2025-31741,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:P
+CVE-2025-31742,"AV:N/A
+AC:UNP
+PR:N/A
+UI:N/A
+S:UNP
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-31743,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31744,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31745,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31746,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:L
+I:L
+A:N"
+CVE-2025-31747,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31748,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-31749,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31750,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-31751,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31752,"AV:N/A
+AC:L
+PR:N
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31753,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31754,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-31755,"AV:N 
+AC:L 
+PR:N 
+UI:N 
+S:C 
+C:H 
+I:H 
+A:H"
+CVE-2025-31756,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31757,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31758,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31759,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-31760,AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:L/A:L
+CVE-2025-31761,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31762,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31763,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31764,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31765,"AV:N
+AC:H
+PR:N
+UI:None
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31766,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31767,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31768,"AV: Network (N)
+AC: High (H)
+PR: None (N)
+UI: None (N)
+S: Changed (C)
+C: High (H)
+I: High (H)
+A: High (H)"
+CVE-2025-31769,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31770,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31771,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:P
+CVE-2025-31772,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/H:None/R:L/Rev:2
+CVE-2025-31773,AV:N/AC:L/PR:N/UI:None/S:U/C:H/I:H/A:H
+CVE-2025-31774,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31775,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31776,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31777,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31778,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31779,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31780,"AV:N
+AC:H
+PR:L
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31781,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31782,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31783,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31784,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31785,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31786,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31787,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:None (N)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31788,"Based on the provided CVE and CWE information, I will generate the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H"
+CVE-2025-31789,"AV:N
+AC:H
+PR:L
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31790,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:A/I:N/A:N
+CVE-2025-31791,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31792,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31793,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+CVE-2025-31794,"AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+
+This CVSS 3.1 vector is generated based on the given CVE and CWE data. Here's a brief explanation of each component:
+
+- AV: Network (N) - The attack vector indicates that the vulnerability can be exploited over a network.
+- AC: High (H) - The attack complexity suggests that an attacker doesn't need to exploit any complex steps or sequences of actions.
+- PR: Low (L) - The privileges required are low, meaning an attacker typically needs minimal or no privileges to execute the exploit.
+- UI: None (N) - User interaction is not needed for this vulnerability, making it a passive threat vector.
+- S: Changed (C) - The scope of the vulnerability impacts confidentiality and potentially changes based on how data is used.
+- C: High (H) - Confidentiality is impacted as sensitive information can be read by attackers.
+- I: High (H) - Integrity is also at risk, as attackers could modify sensitive data without authorization.
+- A: High (H) - The availability of resources and systems is threatened, as attackers can cause denial-of-service attacks."
+CVE-2025-31795,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31796,"To generate the CVSS 3.1 vector for CVE-2025-31796, we first need to break down its description into the component vectors required by the CVSS 3.1 standard.
+
+Given information:
+
+- **AV:** Network (N) - Attack Vector is Network because the attack is conducted over a network.
+- **AC:** High (H) - Attack Complexity is High since it involves manipulating URL parameters or headers to trigger the vulnerability, which requires significant interaction with the server.
+- **PR:** Low (L) - Privileges Required are Low as the exploit leverages an existing vulnerability without requiring elevated privileges.
+- **UI:** None (N) - User Interaction is None because it doesn't require direct user input to trigger the vulnerability; it's more about manipulating request headers or parameters.
+- **S:** Changed (C) - Scope is Changed because this vulnerability affects the server and can potentially expose its internal workings.
+- **C:** High (H) - Confidentiality Impact is High as this issue compromises the privacy of users when the SSRF vulnerability is exploited to gather sensitive information without consent.
+- **I:** High (H) - Integrity Impact is High as it allows an attacker to modify or delete data on the server, compromising its integrity.
+- **A:** High (H) - Availability Impact is High because this issue can lead to denial-of-service scenarios if the SSRF results in excessive requests to internal services.
+
+Putting these components together, we get:
+
+CVSS:3.1/N/H/L/N/C:H/I:H/A:H"
+CVE-2025-31797,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31798,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31799,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31800,"AV:N/A
+AC:10/AU:F/E:F
+PR:N/I:N/C:N
+UI:N/S:N
+S:High
+C:High
+I:None
+A:None"
+CVE-2025-31801,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31802,"AV:N/AC:H/PR:N/UI:N/S:C 
+
+C:C 
+
+I:H 
+
+A:H"
+CVE-2025-31803,CVSS:3.1/AV:N/AC:L/PR:N/UI:P/S:P/C:H/I:P/A:P
+CVE-2025-31804,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31805,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31806,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:H
+CVE-2025-31807,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-31808,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31809,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:N/A:H
+CVE-2025-31810,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31811,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31812,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31813,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31814,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31815,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-31816,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31817,AV:N//AC:L//PR:N//UI:N//S:U//C:H//I:S//A:H
+CVE-2025-31818,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:P/A:N
+CVE-2025-31819,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31820,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31821,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31822,"AV:N/AC:L/PR:N/UI:N/S:C 
+
+CWE-862 is related to Read Application Data and read sensitive data without proper authorization. There's no indication of modification to application data or access to insufficiently-protected, privileged functionality in the description.
+
+CWE-862 is also related to Modify Application Data and write sensitive data directly into an unrestricted data store which could lead to a potential change of scope from confidentiality to integrity. However this isn't present here and instead an attacker can only read the data directly from a data store that is not restricted. There's no indication of accessing insufficiently-protected, privileged functionality for modification or writing.
+
+CWE-862 is also related to Gain Privileges or Assume Identity by modifying critical data directly which could lead to access control being compromised. However there's no indication this vulnerability allows an attacker to modify sensitive data or read it directly from a restricted area without proper authorization either.
+
+Lastly CWE-862 is related to DoS: Crash, Exit, or Restart; DoS: Resource Consumption (CPU); DoS: Resource Consumption (Memory); DoS: Resource Consumption (Other). However this is also not present here as there's no indication an attacker can gain unauthorized access to resources on the system and excessively consume those resources leading to a denial of service.
+
+Therefore, in line with the description of the vulnerability, we have an AV:N/AC:L because it does not require network access to exploit. The value for AC is L (Low), as there are no indications that complex actions are needed to carry out the attack. There's no indication that higher privileges or user interaction are required.
+
+The vector then continues with PR:N/UI:N/S:C because the product doesn't require any special privileges and it does not involve direct user interaction in order to exploit this vulnerability, however there is an implication of reading data which could potentially be sensitive. Finally, since only data may be read without changing its scope from confidentiality to integrity, C is set to None.
+
+The final vector then continues with I:N/A:N/AV:N as we've already established there are no indications that the attacker can modify application data or write sensitive data directly into an unrestricted data store which could lead to a potential change of scope from confidentiality to integrity. An attack does not also result in excessive resource consumption, so A is set to None.
+
+Therefore, the final CVSS 3.1 vector would be:
+
+AV:N/AC:L/PR:N/UI:N/S:C/I:N/A:N"
+CVE-2025-31823,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:F/C:H/I:A/A:H
+CVE-2025-31824,"Based on the provided information, I could not find any explicit CWE data for the given CVE-2025-31824. However, based on the provided CWE-918 description and its corresponding vulnerability characteristics:
+
+AV: Network (N)
+AC: High (H)
+PR: None (N)
+UI: Required (R)
+S: Changed (C)
+C: High (H)
+I: High (H)
+A: High (H)
+
+CVSS:3.1/N/H/N/R/C/H/I/H/A/H"
+CVE-2025-31825,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-31826,AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31827,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31828,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31829,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31830,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31831,"AV:N
+AC:H
+PR:L
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31832,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31833,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:H
+CVE-2025-31834,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-31835,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-31836,AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31837,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31838,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31839,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31840,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:N/A:N
+CVE-2025-31841,"AV:N
+AC:L
+PR:N
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31842,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31843,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31844,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-31845,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31846,"AV:N
+AC:L
+PR:H
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31847,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31848,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31849,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31850,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31851,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31852,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31853,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31854,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31855,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31856,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31857,"AV:N/A
+AC:L/Agf
+PR:N
+UI:R
+S:U
+C:H/I:C/U
+I:P
+A:P"
+CVE-2025-31858,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31859,CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:N
+CVE-2025-31860,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:A/A:N
+CVE-2025-31861,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:P/A:N
+CVE-2025-31862,"AV:N
+AC:L
+PR:N
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31863,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-31864,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:A/A:N
+CVE-2025-31865,"AV:N/AC:L/PR:N/UI:None/S:Changed/C:N/I:N/A:N
+
+This CVSS vector corresponds to a missing authorization vulnerability where an attacker can read sensitive data directly from an unsecured resource or access insufficiently-protected, privileged functionality.
+
+Please note that this vector is based on the provided CWE description and may not be exact for the given CVE."
+CVE-2025-31866,AV:N/AC:L/PR:N/UI:None/S:U/C:H/I:H/A:H
+CVE-2025-31867,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31868,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31869,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31870,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31871,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31872,"AV:N
+AC:H
+PR:H
+UI:None
+S:C
+C:L
+I:L
+A:L"
+CVE-2025-31873,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:N
+CVE-2025-31874,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:P
+CVE-2025-31875,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31876,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31877,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31878,AV:N/AC:H/PR:N/UI:None/S:C/C:N/I:N/A:N
+CVE-2025-31879,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:Low (L)
+A:High (H)"
+CVE-2025-31880,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31881,"AV:N
+AC:H
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-31882,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-31883,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31884,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31885,"AV:N/A
+AC:8/8
+PR:N
+UI:N
+S:N
+C:N
+I:N
+A:N"
+CVE-2025-31886,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31887,"AV:N  // Network
+AC:L  // Low
+PR:H  // High
+UI:R  // Required
+S:C  // Changed
+C:H  // High
+I:H  // High
+A:H  // High"
+CVE-2025-31888,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31889,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31890,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:H
+CVE-2025-31891,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31892,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31893,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-31894,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31895,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:C/A:H
+CVE-2025-31896,"AV:N
+AC:H
+PR:H
+UI:R
+S:C
+C:L
+I:L
+A:N"
+CVE-2025-31897,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:L/I:N/A:N
+CVE-2025-31898,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-31899,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-31900,"AV:N/A
+AC:7/8
+PR:N/A
+UI:N/A
+S:N/A
+C:N/A
+I:N/A
+A:9.8"
+CVE-2025-31901,CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-31902,"AV:N/A
+AC:10/AG:P/PR:N/U:P/S:N/C:N/I:P/A:N"
+CVE-2025-31903,"AV:N/A (Attack Vector: Not applicable as this is a server-side vulnerability)
+
+AC:L/AF:P (Authentication Factor: Low; Attack Vector: False Positive)
+
+PR:N (Privileges Required: None)
+
+UI:N (User Interaction: None)
+
+S:N (System Data: None)
+
+C:N (Confidentiality: None)
+
+I:N (Integrity: None)
+
+A:N (Availability: None)"
+CVE-2025-31904,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31905,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-31906,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-31907,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:P
+CVE-2025-31908,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-31909,"AV:N/A
+AC:H
+PR:L
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-3191,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:A/A:S
+CVE-2025-31910,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31911,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-3192,"AV:Network
+AC:High
+PR:None
+UI:Required
+S:Changed
+C:Low
+I:High
+A:High"
+CVE-2025-3194,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-3197,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32049,"Based on the provided CVE and CWE information, I have generated the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/I:H/A:H"
+CVE-2025-32050,AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32051,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32052,"Based on the provided CVE and CWE information, here's the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:N"
+CVE-2025-32053,"To generate the CVSS vector for the given CVE, we need to analyze the CWE ID and its corresponding description. Based on the CWE-126 description, we can determine the CVSS characteristics as follows:
+
+- Attack Vector (AV): Network (N) - The vulnerability is exploitable over a network.
+- Attack Complexity (AC): High (H) - The complexity of exploiting this vulnerability is high.
+- Privileges Required (PR): None (N) - No special privileges are required to exploit the vulnerability.
+- User Interaction (UI): None (N) - No user interaction is required to exploit the vulnerability.
+- Scope (S): Unchanged (U) - The scope of the vulnerability remains unchanged, i.e., it doesn't change with the environment.
+- Confidentiality (C): High (H) - The vulnerability affects confidentiality.
+- Integrity (I): High (H) - The vulnerability affects integrity.
+- Availability (A): None (N) - The vulnerability does not affect availability.
+
+Therefore, the CVSS vector for the given CVE is:
+
+CVSS:3.1/N/H/None/N/U/H/H/N"
+CVE-2025-32054,"To generate the CVSS 3.1 vector for the given CVE and CWE, we need to break down the information provided into its constituent parts:
+
+- Attack Vector (AV): Adjacent (A) 
+- Attack Complexity (AC): High (H)
+- Privileges Required (PR): None (N)
+- User Interaction (UI): Required (R)
+- Scope (S): Changed (C)
+- Confidentiality (C): High (H)
+- Integrity (I): High (H)
+- Availability (A): None (N)
+
+Thus, the CVSS 3.1 vector for the given CVE and CWE is:
+ 
+CVSS:3.1/AV:A/AC:H/PR:N/UI.R/S:C/C:H/I:H/A:N"
+CVE-2025-32111,"Based on the provided CVE and CWE information, I have extracted the corresponding CVSS 3.1 vector:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+CVE-2025-32112,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32113,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-32118,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32120,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32121,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-32122,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32124,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32125,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32126,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32127,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32129,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-32130,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32131,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-32132,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32133,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32134,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-32135,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-32136,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32137,CVSS:3.1/AV:N/AC:L/PR:N/UI:None/S:C/C:H/I:H/A:H
+CVE-2025-32138,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32141,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-32142,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-32146,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:N
+CVE-2025-32147,AV:N/AC:H/PR:N/UI:None/S:C/C:L/I:L/A:N
+CVE-2025-32148,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32149,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32150,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:N
+CVE-2025-32151,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-32152,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:P/A:H
+CVE-2025-32153,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-32154,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32155,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32156,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-32157,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-32159,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32161,"AV:N/A
+AC:8/8
+PR:N
+UI:N
+S:UNF
+C:N
+I:N
+A:N"
+CVE-2025-32162,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:L/I:P/A:P
+CVE-2025-32163,"AV:N/A
+AC:10
+PR:N
+UI:N
+S:N
+C:L
+I:N
+A:P"
+CVE-2025-32165,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:A/A:S
+CVE-2025-32166,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-32167,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-32168,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-32169,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-32170,"AV:N/A
+AC:5
+PR:N
+UI:N
+S:N
+C:N
+I:N
+A:N"
+CVE-2025-32171,"AV:N/A
+AC:7/8
+PR:N/A
+UI:N/A
+S:INF
+C:N/A
+I:N/A
+A:N/A"
+CVE-2025-32172,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+CVE-2025-32173,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32174,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32175,"AV:N/A
+AC:8/8
+PR:N/A
+UI:N/A
+S:N/A
+C:N/A
+I:A/N/A
+A:9.5"
+CVE-2025-32176,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32177,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:N
+CVE-2025-32178,AV:N/AC:L/PR:N/UI:None/S:C/C:H/I:H/A:H
+CVE-2025-32179,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32181,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:N/A:N
+CVE-2025-32182,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:H
+CVE-2025-32183,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-32184,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-32185,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-32186,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:H
+CVE-2025-32187,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-32188,"AV:N/A
+AC:6/8
+PR:N
+UI:N
+S:N
+C:N
+I:N
+A:N"
+CVE-2025-32189,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:F/C:H/I:A/A:N
+CVE-2025-32190,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:A/A:H
+CVE-2025-32191,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32192,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:N/C:H/I:H/A:N
+CVE-2025-32193,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:P/C:H/I:A 
+
+Note:
+- AV:N (Attack Vector) indicates the attack vector for this vulnerability is Network.
+- AC:L (Authentication) indicates that no user authentication is required to exploit the vulnerability.
+- PR:N (Privileges Required) indicates privileges required to exploit the vulnerability are None.
+- UI:N (User Interaction) indicates user interaction is not required to exploit the vulnerability.
+- S:C (Scope) indicates the attack scope is Change, meaning this can be exploited while making changes to the system or network.
+- I:P (Impact) indicates that an impact of High (H) is possible if input validation fails and an XSS attack is successful.
+- A:H (Confidentiality) indicates a high impact on confidentiality."
+CVE-2025-32194,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32195,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32196,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:N
+CVE-2025-32197,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:N/C:H/I:P/A:P
+CVE-2025-32200,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32201,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32203,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:F/I:N/A:N
+CVE-2025-32204,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:P/A:P
+CVE-2025-32207,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:A/C:H/I:H/A:P
+CVE-2025-32217,"AV:N
+AC:L
+PR:H
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-32218,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:High (H)"
+CVE-2025-32219,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32220,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32224,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+CVE-2025-32225,"AV:N
+AC:L
+PR:H
+UI:N
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-32226,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32229,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32231,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-32232,AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:H
+CVE-2025-32233,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32234,AV:N/AC:L/PR:N/UI:None/S:U/C:N/I:N/A:N
+CVE-2025-32235,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32237,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32238,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N
+CVE-2025-32239,AV:N/AC:L/PR:N/UI:None/S:Changed/C:H/I:H/A:H
+CVE-2025-32241,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32246,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:None (N)
+S:Changed (C)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:None (N)"
+CVE-2025-32247,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32248,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/I:H/A:H
+CVE-2025-32249,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32250,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:N/A:N
+CVE-2025-32251,"AV:N/AC:H/PR:L/UI:N/S:C/I:H/A:H
+
+This CVSS vector corresponds to the given CVE-2025-32251 and CWE-497:
+
+- AV: Network (N) - The vulnerability is accessible over a network, but there is no remote exploitation required.
+- AC: High (H) - High attack complexity due to various factors like system configuration, product version, etc., that require additional analysis to identify the vulnerability.
+- PR: Low (L) - Privileges Required are minimal; they can be obtained easily by an attacker.
+- UI: None (N) - User Interaction is not required for exploitation.
+- S: Changed (C) - The scope of the system affected by the vulnerability has changed, as it could lead to unauthorized access or data exposure.
+- C: High (H) - Confidentiality is at risk due to potential exposure of sensitive system information.
+- I: High (H) - Integrity is also at risk, as an attacker may be able to access and modify sensitive system files or directories.
+- A: High (H) - The availability of the system could be affected if unauthorized actors gain access to it.
+
+This CVSS vector is for informational purposes only and may not accurately represent every possible scenario in which this vulnerability might be exploited."
+CVE-2025-32252,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:Confidentiality:High (H)
+I:Integrity:High (H)
+A:Availability:High (H)"
+CVE-2025-32253,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32254,AV:N - AC:L - PR:N - UI:R - S:C - C:H - I:H - A:H
+CVE-2025-32255,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32256,AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32257,"Based on the provided CVE and CWE information, I'm unable to generate a CVSS 3.1 vector for this issue as the data you've given doesn't fully align with any of the options in the CVSS 3.1 vector formatting guidelines. Therefore, I cannot generate the CVSS vector for your request.
+
+However, here is the standard format response without providing a CVSS Vector:
+ 
+CVSS:3.1/AV:X/AC:X/PR:X/UI:X/S:X/C:X/I:X/A:X"
+CVE-2025-32258,"AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+Note: This CVSS vector is based on the provided CVE and CWE information. The actual CVSS score and vector may vary depending on additional factors not mentioned in the description."
+CVE-2025-32261,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32262,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32263,"AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+
+Note: The AV (Attack Vector) is set to Network (N) as it doesn't require physical access, but an attacker could try to exploit the vulnerability from a different network. 
+
+The AC (Attack Complexity) is set to High (H) because it requires sufficient knowledge about the user's session and the system's session handling mechanisms.
+
+The PR (Privileges Required) is set to None (N), as there are no special privileges required to exploit this vulnerability.
+
+UI (User Interaction) is set to Required (R) because an attacker must interact with a legitimate user's session in order to trigger this vulnerability.
+
+S (Scope) is set to Changed (C) since the attack primarily targets data confidentiality and integrity, and access is restricted within a specific system component.
+
+The C (Confidentiality), I (Integrity), and A (Availability) are set to High (H), as an attacker could gain privileged access to sensitive user information."
+CVE-2025-32264,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32265,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)"
+CVE-2025-32266,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32267,CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/I:N/A:N
+CVE-2025-32268,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32269,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32270,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32271,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32272,AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32273,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32274,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/I:H/A:H
+CVE-2025-32276,"AV:Network (N)
+AC:High (H)
+PR:None (N)
+UI:Required (R)
+S:Changed (C)
+C:High (H)
+I:High (H)
+A:High (H)
+
+Note: The CVSS 3.1 vector is generated based on the provided CVE and CWE descriptions."
+CVE-2025-32277,"AV:N
+AC:L
+PR:N
+UI:R
+S:C
+C:H
+I:H
+A:H"
+CVE-2025-32278,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-32280,"AV:N - The attack vector for this vulnerability is Network, as it can be performed over a network.
+
+AC:L - The attack complexity for this vulnerability is Low, since the attack requires minimal privileges and no special knowledge is required to execute an attacker-controlled request on behalf of another user. 
+
+PR:None - No special privileges are required to exploit this vulnerability.
+
+UI:Required - User interaction is needed to successfully exploit this vulnerability.
+
+S:C - The scope of the data affected by this vulnerability is Confidentiality, since it may impact data stored in the web application's database that contains sensitive information such as user credentials or credit card details. 
+
+C:H - The confidentiality impact for this vulnerability is High, since a successful attack would allow an attacker to steal confidential data.
+
+I:L - The integrity impact for this vulnerability is Low, since there are no known consequences of a successful attack where the attackers could not read, write, or modify data.
+
+A:N - There is no availability impact, as a successful attack does not cause a denial-of-service (DoS) condition."

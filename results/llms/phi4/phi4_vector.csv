@@ -1,0 +1,2653 @@
+cve_id,response
+CVE-2025-28874,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+This analysis assumes:
+- **Attack Vector (AV):** Network, because the vulnerability can be exploited remotely via network communication.
+- **Attack Complexity (AC):** Low, as no special conditions are required beyond user input.
+- **Privileges Required (PR):** None, indicating no privileges needed to exploit the vulnerability.
+- **User Interaction (UI):** None, as it doesn't require any interaction from an end-user.
+- **Scope (S):** Changed, because exploiting this vulnerability affects confidentiality and integrity of data beyond the initially compromised component.
+- **Confidentiality Impact (C):** High, due to potential unauthorized access to sensitive email assign templates.
+- **Integrity Impact (I):** High, because modifying or manipulating email templates can affect data integrity.
+- **Availability Impact (A):** Low, assuming the vulnerability does not impact system availability but affects data confidentiality and integrity."
+CVE-2025-28875,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+
+"
+CVE-2025-28876,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-28877,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-28878,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-28879,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28880,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-28881,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-28882,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28883,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28884,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-28885,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-28886,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-28887,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-28889,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28890,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-28891,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28892,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28893,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28894,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+Note:  
+- AV is Network (N) because CSRF typically exploits interactions over a network via web interfaces.
+- AC is Low (L) as exploitation does not require significant complexity; it relies on tricking the user to perform actions.
+- PR is None (N) since no privileges are required to exploit this vulnerability.
+- UI is Required (R) because the attack involves user interaction, typically through deception or trickery.
+- S is Unchanged (U) as the scope does not extend beyond its original boundary.
+- C is High (H) due to stored XSS allowing unauthorized actions on behalf of users leading to data exposure.
+- I is High (H) as integrity can be compromised by executing malicious scripts in the context of a user session.
+- A is None (N) because availability is typically not directly impacted."
+CVE-2025-28895,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-28896,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-28897,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-28898,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28899,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-28900,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28901,"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N
+
+"
+CVE-2025-28902,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-28903,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-28904,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28905,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+(Note: The assumptions made are based on typical characteristics of a Stored XSS vulnerability. Adjustments may be necessary with more specific information.)"
+CVE-2025-28906,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+Note:  
+- AV (Attack Vector): N for Network, since the vulnerability is accessible remotely via a web page.
+- AC (Attack Complexity): L for Low, as exploiting stored XSS typically requires straightforward actions.
+- PR (Privileges Required): N for None, as no special privileges are needed to exploit the vulnerability.
+- UI (User Interaction): N for None, since stored XSS does not require user interaction during exploitation.
+- S (Scope): U for Unchanged, because the attack does not impact other components beyond the vulnerable instance.
+- C (Confidentiality), I (Integrity), A (Availability): H for High due to potential exposure of sensitive data and manipulation of web content."
+CVE-2025-28907,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-28908,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-28909,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-2891,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28910,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-28911,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-28912,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-28913,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-28914,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-28915,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28916,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28917,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L
+CVE-2025-28918,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-28919,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-28920,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28921,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-28922,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N  
+
+This vector is based on the following analysis of the CVE description:
+
+- **Attack Vector (AV):** Network (N) - The CSRF vulnerability can be exploited over a network.
+- **Attack Complexity (AC):** Low (L) - Exploiting CSRF typically requires minimal effort and complexity.
+- **Privileges Required (PR):** None (N) - An attacker does not need any special privileges to exploit the vulnerability.
+- **User Interaction (UI):** Required (R) - The Stored XSS aspect of this vulnerability usually requires some user interaction, such as clicking a malicious link.
+- **Scope (S):** Unchanged (U) - The impact is confined to the same security context, i.e., it does not affect other components or systems.
+- **Confidentiality (C):** Low (L) - The XSS could potentially access some sensitive information but typically impacts only low-level data.
+- **Integrity (I):** High (H) - Stored XSS can lead to unauthorized script execution that modifies the content integrity of a web application.
+- **Availability (A):** None (N) - This vulnerability does not impact system availability."
+CVE-2025-28923,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-28924,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-28925,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-28926,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-28927,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L  
+
+This vector assumes a network attack is possible (since CSRF can be executed via network requests), low complexity as CSRF typically requires only a crafted request, no privileges needed by the attacker, user interaction required to trigger the vulnerability, unchanged scope since it doesn't expand beyond the affected component, and high impacts on confidentiality and integrity due to potential unauthorized actions, with low impact on availability. Adjustments may be necessary based on specific details from an assessment."
+CVE-2025-28928,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28929,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-28930,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-28931,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28932,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-28933,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-28934,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-28935,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-28936,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N  
+
+(Note: The vector assumes a network-based attack with low complexity, no privileges required, no user interaction needed, scope changed due to cross-domain effect, high impact on confidentiality, low impact on integrity, and no impact on availability.)"
+CVE-2025-28937,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-28938,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28939,"CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N  
+
+(Note: The attack can be executed remotely (Network), requires a high level of complexity due to being blind (High), typically no user privileges are needed (Low), and there is no need for user interaction (None). The vulnerability changes the scope, as it affects information beyond its security perimeter (Changed), has a high impact on confidentiality, while integrity and availability remain unaffected.)"
+CVE-2025-2894,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28940,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-28941,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-28942,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-28943,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The vector assumes a network attack vector (N) as it's related to web applications, low complexity (L), no privileges required (N), no user interaction (N), scope changed (C) due to the cross-site scripting affecting other users' data, and high impacts on confidentiality, integrity, and availability (H). Adjustments may be necessary based on more detailed context.)"
+CVE-2025-2901,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N
+CVE-2025-2906,"CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-29266,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-29766,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-29768,"CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:L
+
+"
+CVE-2025-29770,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+
+"
+CVE-2025-29773,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+(Note: The attack vector is local because it involves an authenticated user's actions within the application, exploiting a logical vulnerability through email addresses. Attack complexity is low due to straightforward account creation. No specific privileges beyond authentication are required. User interaction is not needed once authenticated, scope is unchanged as it does not affect other components/systems, and confidentiality and integrity scores are high due to potential account overlap affecting sensitive operations.)"
+CVE-2025-29778,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29781,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N  
+"
+CVE-2025-29783,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29786,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H  
+
+This vector represents a vulnerability in software where:
+
+- **AV (Attack Vector): N** - The attack can be performed remotely via network.
+- **AC (Attack Complexity): L** - Requires low complexity as the attacker only needs to provide large input without authentication or specific configuration restrictions.
+- **PR (Privileges Required): N** - No privileges are required for an attacker to exploit this vulnerability.
+- **UI (User Interaction): N** - The exploitation does not require user interaction beyond providing input.
+- **S (Scope): U** - The impact is confined within the application; it doesn't affect other parts of the system.
+- **C (Confidentiality): N** - There's no direct impact on confidentiality as this vulnerability leads to a denial of service.
+- **I (Integrity): H** - High integrity impact because if exploited, it can crash or destabilize processes which may lead to data corruption.
+- **A (Availability): H** - High availability impact due to the potential for an OOM crash leading to application downtime."
+CVE-2025-29788,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29795,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+"
+CVE-2025-29796,"To generate a CVSS 3.1 vector for CVE-2025-29796 with no description provided, we'll need to make assumptions based on common scenarios and default values. Here’s how you can construct the vector:
+
+1. **Attack Vector (AV):** Without specific information, assume Network (N) as it's the most common.
+2. **Attack Complexity (AC):** Default to Low (L) if not specified.
+3. **Privileges Required (PR):** Assume None (N) unless stated otherwise.
+4. **User Interaction (UI):** Default to None (N) for automated vulnerabilities.
+5. **Scope (S):** Default to Unchanged (U) when no information is given.
+6. **Confidentiality (C), Integrity (I), Availability (A):** Assume High (H) impact as a worst-case scenario if unspecified.
+
+Based on these assumptions, the CVSS 3.1 vector would be:
+
+```
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+```"
+CVE-2025-29806,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+(Note: The default assumptions are used for a hypothetical vulnerability with no specific details provided in the description.)"
+CVE-2025-29807,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: The above is a generic high-severity example assuming network exploitability with no user interaction and significant impact. Adjust according to specific vulnerability details if provided.)"
+CVE-2025-29814,"Without specific details about the vulnerability described in CVE-2025-29814, it's impossible to accurately determine the CVSS 3.1 vector components such as Attack Vector (AV), Attack Complexity (AC), Privileges Required (PR), User Interaction (UI), Scope (S), and impacts on Confidentiality (C), Integrity (I), and Availability (A). These elements are typically derived from a detailed analysis of how the vulnerability can be exploited, what prerequisites must be met, the level of user interaction required to exploit it, and its impact on the affected system.
+
+To illustrate, here's an example of how a CVSS vector might look if we had specific details:
+
+- **AV**: If the vulnerability can be exploited over a network without any physical access, AV would be ""N"" (Network).
+- **AC**: If exploiting the vulnerability requires significant effort or specific conditions, AC would be ""H"" (High). Otherwise, it might be ""L"" (Low).
+- **PR**: If no special permissions are needed to exploit the vulnerability, PR would be ""N"" (None). If low-level user rights are required, it would be ""L"" (Low), and if administrative rights are necessary, ""H"" (High).
+- **UI**: If exploiting the vulnerability does not require any interaction from a user, UI would be ""N"" (None). Otherwise, it would be ""R"" (Required).
+- **S**: If exploiting the vulnerability affects only the compromised component and does not impact other components or change the scope of the attack, S would be ""U"" (Unchanged). If it allows for escalation beyond the initial compromise, S would be ""C"" (Changed).
+- **C/I/A**: These depend on how much information is disclosed, modified, or made unavailable as a result of exploiting the vulnerability. They could range from ""N"" (None) if there's no impact, to ""L"" (Low), and ""H"" (High) based on severity.
+
+Given the lack of specific details in the CVE description provided, it is not possible to generate an accurate CVSS vector for CVE-2025-29814. Therefore, I must refrain from providing a speculative or generic response."
+CVE-2025-29815,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+"
+CVE-2025-29903,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-29904,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-29908,"CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L  
+
+"
+CVE-2025-29914,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-29922,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-29923,"CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L  
+
+Note: This vector assumes a network-based exploit (AV:N), high attack complexity due to required conditions like network issues and specific client configuration (AC:H), low privileges required for exploiting the issue (PR:L), no user interaction needed (UI:N), unchanged scope as it does not impact other components beyond the affected application (S:U), and potential impacts on confidentiality, integrity, and availability at a low level due to out-of-order responses impacting data correctness."
+CVE-2025-29927,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-29928,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:L  
+
+"
+CVE-2025-29929,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+CVE-2025-29932,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-29981,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-29982,"CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-29987,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-29991,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30004,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30005,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30006,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30066,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-30074,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30076,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30077,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:C/A:H  
+
+"
+CVE-2025-30089,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-30090,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
+
+"
+CVE-2025-3011,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30143,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30144,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30149,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30152,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N
+CVE-2025-30153,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+"
+CVE-2025-30154,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30155,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The vulnerability allows unauthorized access to parent trackers via REST API, indicating high confidentiality and integrity impact with changed scope due to network exposure without user interaction or authentication required.)"
+CVE-2025-30157,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30162,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N  
+"
+CVE-2025-30163,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L  
+
+This assessment is based on the following considerations:
+
+- **Attack Vector (AV):** Network, as the vulnerability can be exploited remotely over a network by sending traffic to/from endpoints.
+  
+- **Attack Complexity (AC):** Low, since crafting and directing the malicious traffic requires no special conditions beyond network access.
+
+- **Privileges Required (PR):** Low, because it does not require high-level privileges on the target system, just basic access to send/receive traffic.
+
+- **User Interaction (UI):** None, as the exploitation can be automated without any interaction from a user once the initial setup is complete.
+
+- **Scope (S):** Changed, since exploiting this vulnerability affects other components or systems beyond those originally targeted.
+
+- **Confidentiality (C):** Low, because unauthorized traffic could lead to exposure of sensitive information specific to endpoints that should have been restricted.
+
+- **Integrity (I):** Low, as the incorrect policy application may allow tampering with data from/to unintended endpoints.
+
+- **Availability (A):** Low, given that while services might remain accessible, they are not protected from unauthorized access or manipulation.  
+
+This vector represents a typical misconfiguration vulnerability in network policies where external traffic can be routed incorrectly due to label misuse."
+CVE-2025-30164,"CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:N  
+
+"
+CVE-2025-30168,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30179,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L
+CVE-2025-30203,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30204,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-30205,"CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N  
+
+(Note: AV is Local because it requires access to the system's logs; AC is High due to the need for specific conditions like using provided patches and provisioning with certain credentials; PR is Low as no special privileges are needed beyond accessing and modifying local configurations/logs; UI is None since no user interaction is required once the vulnerable setup is in place; S is Unchanged because it does not impact other components or increase attack surface; C is High due to potential disclosure of admin credentials affecting confidentiality; I is None as integrity is not affected by this vulnerability; A is None because availability is not impacted.)"
+CVE-2025-30208,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30209,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30211,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+
+"
+CVE-2025-30216,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30219,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30223,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-30225,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30232,"CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:N
+
+"
+CVE-2025-30234,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30235,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+CVE-2025-30236,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30258,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+CVE-2025-30342,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30343,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30344,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30345,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N  
+"
+CVE-2025-30346,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30347,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30348,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+
+"
+CVE-2025-30349,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30350,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+
+This vector is constructed based on the following analysis:
+
+- **Attack Vector (AV):** The vulnerability involves sending HTTP HEAD requests, which can be initiated remotely over a network without needing physical access or adjacency. Therefore, it's classified as Network (N).
+
+- **Attack Complexity (AC):** The attack requires only sending multiple HEAD requests to trigger the issue; hence it is straightforward and doesn't involve complex conditions. Thus, it is Low (L).
+
+- **Privileges Required (PR):** No special privileges are needed since the vulnerability can be exploited without any user authentication or elevated access rights. Therefore, it's None (N).
+
+- **User Interaction (UI):** The exploitation of this vulnerability does not require any interaction from a user beyond initiating the requests. Hence, it is None (N).
+
+- **Scope (S):** The impact remains within the affected system without affecting other systems or components. Consequently, the scope is Unchanged (U).
+
+- **Confidentiality (C), Integrity (I):** There is no unauthorized access to data or alteration of data integrity as a result of this vulnerability. Therefore, both Confidentiality and Integrity are None (N).
+
+- **Availability (A):** The primary impact of this vulnerability is the unavailability of assets due to them being served with 403 Forbidden responses after a burst of requests. This constitutes a High (H) impact on availability."
+CVE-2025-30351,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30352,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+CVE-2025-30353,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30355,"CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:L
+
+"
+CVE-2025-30358,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H  
+
+(Note: This assessment is based on the provided CVE description and assumes that an attacker can exploit the vulnerability remotely without authentication or interaction, potentially leading to high impact on integrity and availability due to remote code execution possibilities.)"
+CVE-2025-30368,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N  
+
+(Note: The attack requires network access since it involves an API, and the complexity is low because a known vulnerability allows bypassing restrictions without additional conditions. Low privileges are needed as only organization administrators can exploit this flaw. No user interaction is required for exploitation. The scope changes due to cross-organization impacts. Confidentiality impact is high because sensitive data from another organization could be compromised.)"
+CVE-2025-30369,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:N  
+
+"
+CVE-2025-30370,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+CVE-2025-30406,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-3047,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N  
+"
+CVE-2025-30472,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-3048,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30520,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30521,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30522,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:N  
+
+"
+CVE-2025-30523,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30524,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30525,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30526,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30527,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30528,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30529,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30530,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30531,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N  
+
+"
+CVE-2025-30532,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+--- 
+
+**Explanation of Vector Components for CVE-2025-30532:**
+
+1. **Attack Vector (AV): N**
+   - The vulnerability is related to Cross-site Scripting (XSS), which typically involves a web application where the attack can be conducted remotely over the network.
+
+2. **Attack Complexity (AC): L**
+   - XSS vulnerabilities are generally low in complexity because they often rely on predictable inputs and outputs that do not require sophisticated techniques.
+
+3. **Privileges Required (PR): N**
+   - Stored XSS typically does not require any special privileges as it exploits the normal functionality of a web application.
+
+4. **User Interaction (UI): N**
+   - The vulnerability is a stored XSS, meaning that user interaction is not required to trigger the exploit; it occurs automatically when the affected page is viewed.
+
+5. **Scope (S): C**
+   - Stored XSS can lead to scope changes as the impact extends beyond just data exposure on the vulnerable server to potentially affect other users or systems interacting with the compromised application.
+
+6. **Confidentiality (C): H**
+   - A high confidentiality impact is assumed because stored XSS can allow an attacker to steal sensitive information from any user who views the maliciously crafted web page, such as session cookies.
+
+7. **Integrity (I): N**
+   - There's no direct modification of data integrity in this case, as the primary concern with XSS is unauthorized access or control rather than alteration of data.
+
+8. **Availability (A): N**
+   - This particular vulnerability does not directly affect availability; it is more focused on confidentiality and potential privilege escalation.
+
+This vector reflects the standard analysis for a stored Cross-site Scripting vulnerability in web applications."
+CVE-2025-30533,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30534,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30535,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+CVE-2025-30536,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+(Note: The attack vector is Network (N) because it involves a web application, attack complexity is Low (L), privileges required are None (N), user interaction is Required (R) as it is Stored XSS, scope is Unchanged (U), and confidentiality and integrity impacts are considered low (L) due to potential data exposure or manipulation.)"
+CVE-2025-30537,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30538,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N  
+
+"
+CVE-2025-30539,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30540,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+CVE-2025-30541,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30542,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+
+"
+CVE-2025-30543,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30544,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-30545,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N  
+
+"
+CVE-2025-30546,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30547,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30548,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-30549,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30550,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-30551,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+CVE-2025-30552,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30553,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30554,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30555,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30556,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30557,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30558,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30559,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30560,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30561,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:X/A:X  
+
+"
+CVE-2025-30563,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+(Note: This assumes a typical reflection XSS context where it can be executed via a network without any privileges, with required user interaction for the attack to reflect back to them.)"
+CVE-2025-30564,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30565,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-30566,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-30567,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+(Note: The vector components are determined as follows:
+- AV:N, because network access is possible through a web application vulnerability.
+- AC:L, assuming standard exploit conditions without additional complexity.
+- PR:N, as no privileges are needed to exploit this vulnerability.
+- UI:N, since user interaction is not required for exploitation.
+- S:C, due to the change in scope from local to remote access.
+- C:H and I:H, reflecting high impact on confidentiality and integrity through unauthorized file access.
+- A:L, indicating a potential low impact on availability if exploited.)"
+CVE-2025-30568,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30569,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30570,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30571,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30572,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30573,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-30574,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-30575,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-30576,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30577,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30578,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30579,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30580,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30581,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30583,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:X/A:X  
+
+"
+CVE-2025-30584,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-30585,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30586,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30587,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+(Note: This vector is based on typical assumptions for CSRF vulnerabilities, where Attack Vector is Network (N), Attack Complexity is Low (L), Privileges Required are None (N), User Interaction is Required (R), Scope is Unchanged (U), and the impact on Confidentiality can be High (H) due to XSS potential. Integrity and Availability impacts are typically None (N). Adjustments might be necessary based on more specific details.)"
+CVE-2025-30588,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30589,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30590,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30591,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30592,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30593,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N  
+
+"
+CVE-2025-30594,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30595,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30596,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+CVE-2025-30597,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30598,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30599,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+Note: The attack can be initiated remotely (Network), it's generally considered low complexity, no privileges are required, user interaction is necessary due to the nature of stored XSS, scope remains unchanged, confidentiality impact is high as sensitive data could be accessed, integrity has a low impact, and availability is not directly impacted."
+CVE-2025-30600,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+(Note: The Attack Vector is Network (N) as it affects a web page, Attack Complexity is Low (L), Privileges Required are None (N), User Interaction is Required (R), Scope is Unchanged (U), Confidentiality Impact is High (H) due to potential exposure of sensitive information, Integrity Impact is Low (L), and Availability Impact is None (N).)"
+CVE-2025-30601,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30602,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30603,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N
+CVE-2025-30604,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30605,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30606,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30607,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-30608,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:X/A:X
+
+"
+CVE-2025-30609,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+(Note: This vector is generated based on typical assumptions for such vulnerabilities, where data exfiltration typically involves network access (AV:N), low complexity (AC:L), no privileges required (PR:N), no user interaction (UI:N), unchanged scope (S:U), high impact on confidentiality (C:H), and no impact on integrity or availability (I:N/A:N). Adjustments may be needed based on specific details in the vulnerability.)"
+CVE-2025-30610,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30611,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-30612,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30613,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30614,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30615,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30616,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30617,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30619,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30620,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+
+"
+CVE-2025-30621,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30622,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30623,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-3063,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:H  
+
+"
+CVE-2025-30741,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-30742,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30763,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30764,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30765,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30766,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30767,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30768,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+CVE-2025-30769,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30770,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30771,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-30772,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H  
+
+Note: The assessment is based on a typical interpretation of the provided vulnerability details. Adjustments might be necessary with more specific information or context about the environment in which this vulnerability exists."
+CVE-2025-30773,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30774,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30775,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-30776,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-30777,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30778,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+(Note: The confidence levels for C, I, and A are set to H because a successful XSS attack could potentially allow an attacker to read (C), modify (I), and disrupt (A) the affected system's data or operations.)"
+CVE-2025-30779,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+CVE-2025-30780,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30781,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30782,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30783,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30784,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30785,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30786,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: The base score metrics are inferred based on typical characteristics of a DOM-Based XSS vulnerability.)"
+CVE-2025-30787,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30788,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+(Note: This is a hypothetical example and may not accurately reflect actual vulnerability assessment details.)"
+CVE-2025-30789,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+Note:  
+- AV (Attack Vector) is Network (N) because the vulnerability can be exploited remotely over the network.
+- AC (Attack Complexity) is Low (L) as the attack does not require additional conditions to succeed.
+- PR (Privileges Required) is None (N) since no privileges are needed on the vulnerable system.
+- UI (User Interaction) is None (N) because the vulnerability can be exploited without any user interaction once it has been delivered.
+- S (Scope) is Changed (C) due to the Stored XSS affecting the security context of a trusted user.
+- C (Confidentiality), I (Integrity), and A (Availability) are High (H), Low (L), and None (N) respectively, reflecting the impact on confidentiality and integrity, but no direct impact on availability."
+CVE-2025-30790,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30791,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30792,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30793,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30794,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-30795,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30796,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30797,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+"
+CVE-2025-30798,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+--- 
+
+**Explanation of Vector Components:**
+
+- **AV (Attack Vector): N (Network)**
+  - The vulnerability is accessible over the network via a web page, indicating that it can be exploited remotely.
+
+- **AC (Attack Complexity): L (Low)**
+  - The attack does not require significant complexity. It involves sending malicious input through a web request to trigger the XSS vulnerability.
+
+- **PR (Privileges Required): N (None)**
+  - No special privileges are required on the vulnerable system for an attacker to exploit this vulnerability.
+
+- **UI (User Interaction): R (Required)**
+  - The user must interact with the vulnerable page (e.g., by clicking a link or visiting a URL) for the attack to be successful, as it is a reflected XSS.
+
+- **S (Scope): U (Unchanged)**
+  - Exploitation does not change the scope of the vulnerability. It remains within the same security context as the original request.
+
+- **C (Confidentiality): H (High)**
+  - The attacker can execute scripts in the user's browser and access sensitive information, such as cookies or session tokens.
+
+- **I (Integrity): N (None)**
+  - There is no direct impact on data integrity from this vulnerability; it does not modify data stored by the application.
+
+- **A (Availability): N (None)**
+  - The availability of the service is not impacted by exploiting this vulnerability."
+CVE-2025-30799,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-30800,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30801,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30802,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: Assumptions are made based on common scenarios where sensitive information is exposed to unauthorized control spheres, typically leading to high impact scores across confidentiality, integrity, and availability with no user interaction required and scope changed.)"
+CVE-2025-30803,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30804,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30805,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30806,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30807,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30808,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30809,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+(Note: The vector assumes network access is possible without authentication (AV:N), low complexity to exploit (AC:L), no privileges required (PR:N), no user interaction needed (UI:N), the scope changes because it affects confidentiality (S:C), high impact on confidentiality due to data exposure (C:H), no integrity or availability impact (I:N, A:N). Adjustments may be necessary with more context.)"
+CVE-2025-30810,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30811,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30812,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30813,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+Note: The vector components are chosen as follows:
+
+- **AV (Attack Vector): N** because Cross-site Scripting (XSS) is typically exploited via the network.
+- **AC (Attack Complexity): L** since XSS usually involves straightforward exploitation through user input manipulation.
+- **PR (Privileges Required): N** because attackers do not need specific privileges to exploit an XSS vulnerability.
+- **UI (User Interaction): N** as this scenario describes a stored XSS, which doesn't require additional interaction from the victim once set.
+- **S (Scope): U** since XSS impacts only the confidentiality and integrity of data in a single application.
+- **C (Confidentiality), I (Integrity), A (Availability): H** due to the high impact on user privacy, data manipulation, and potential for executing malicious scripts affecting availability."
+CVE-2025-30814,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30815,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30816,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30817,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-30818,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-30819,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-3082,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30820,"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N
+
+"
+CVE-2025-30821,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30822,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30823,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30824,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30825,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:L
+CVE-2025-30826,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+Note:  
+- AV:N because it's a web-based attack that can be exploited remotely via network access.  
+- AC:L since the attack requires only standard user interaction, without additional complexity.  
+- PR:N as no privileges are needed to exploit this vulnerability.  
+- UI:R because the exploitation involves user interaction (e.g., clicking on a link).  
+- S:U since the scope of the attack remains unchanged; it does not affect other components beyond the original target.  
+- C:H and I:H due to the potential for unauthorized access or modification of sensitive data.  
+- A:N as there is no direct impact on availability."
+CVE-2025-30827,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-30828,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30829,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+Note:  
+- **AV (Attack Vector)** is Local because it involves a local file inclusion vulnerability, typically requiring access to the server's filesystem rather than remote exploitation.
+- **AC (Attack Complexity)** is High due to potential mitigations such as path traversal restrictions or input validation.
+- **PR (Privileges Required)** is None since this vulnerability can be exploited without needing specific privileges on the system.
+- **UI (User Interaction)** is None because it's an automatic attack that does not require user interaction.
+- **S (Scope)** is Changed, as exploiting this could affect the application beyond its initial boundary.
+- **C (Confidentiality)** is High due to potential unauthorized access to sensitive files.
+- **I (Integrity)** and **A (Availability)** are None because they do not typically impact file inclusion vulnerabilities directly."
+CVE-2025-3083,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30830,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30831,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30832,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30833,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30834,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-30835,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-30836,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-30837,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-30838,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-30839,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-3084,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-30840,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-30841,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30842,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30843,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30844,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30845,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector assumes that exploitation can occur over a network, requires low complexity, no privileges, no user interaction, changes the scope due to remote code execution capabilities, and leads to high impact on confidentiality, integrity, and availability.)"
+CVE-2025-30846,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+---  
+
+**Explanation of Each Component:**  
+
+- **AV (Attack Vector): L (Local)**  
+  The vulnerability involves local file inclusion, meaning the attack vector is local rather than network-based.
+
+- **AC (Attack Complexity): H (High)**  
+  High complexity because exploiting this issue typically requires specific conditions or knowledge about the server's environment and configuration.
+
+- **PR (Privileges Required): N (None)**  
+  No privileges are needed to exploit this vulnerability, as it can be triggered without elevated permissions.
+
+- **UI (User Interaction): N (None)**  
+  The attack does not require any user interaction; it can be executed automatically by the attacker.
+
+- **S (Scope): U (Unchanged)**  
+  The scope remains unchanged because the vulnerability is confined to a single instance of exploitation without affecting other components or systems.
+
+- **C, I, A (Impact): H (High) for each**  
+  - **C (Confidentiality): H**  
+    High impact due to potential unauthorized access to sensitive files and data.
+    
+  - **I (Integrity): H**  
+    High impact because the attacker can modify code or data on the server.
+
+  - **A (Availability): H**  
+    High impact if the attack disrupts service availability by altering critical files or configurations.  
+
+---"
+CVE-2025-30847,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-30848,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30849,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-3085,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:L
+CVE-2025-30850,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30851,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30852,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-30853,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L
+
+"
+CVE-2025-30854,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30855,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30856,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30857,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-30858,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-30859,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N  
+
+(Note: The vector assumes network exploitation (N), low complexity (L), no privileges required (N), no user interaction (N), changed scope due to trust boundary crossing (C), and low impact on confidentiality (C) because of potential data exposure through redirection.)"
+CVE-2025-30860,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-30861,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30862,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30863,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-30864,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L
+CVE-2025-30865,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30866,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30867,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N  
+
+"
+CVE-2025-30868,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30869,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-30870,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector assumes that the vulnerability can be exploited remotely (Network), requires low complexity, no privileges, no user interaction, changes scope due to remote code execution leading to high confidentiality and integrity impact, and also potentially impacts availability significantly.)"
+CVE-2025-30871,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The classification assumes network access is required for exploitation, typical attack complexity, no privileges needed beyond initial access, no user interaction, and changes scope with high impact on confidentiality, integrity, and availability due to the nature of PHP file inclusion vulnerabilities.)"
+CVE-2025-30872,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N  
+
+"
+CVE-2025-30873,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The values are selected based on typical characteristics of Stored XSS vulnerabilities affecting web applications.)"
+CVE-2025-30874,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30876,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30877,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30878,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30879,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30880,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30881,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30882,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30883,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30884,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-30885,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30886,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30887,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: These values are based on common assumptions for a Missing Authorization vulnerability where Attack Vector is Network, Attack Complexity is Low due to easy exploitation through configuration issues, Privileges Required are Low as it might not need elevated privileges to exploit the vulnerability, User Interaction is None as it can be exploited without user input, Scope is Changed because exploiting this could allow access beyond the intended scope, and Impact on Confidentiality, Integrity, and Availability are High due to potential exposure of sensitive data, unauthorized modification of data, and disruption of service.)"
+CVE-2025-30888,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30889,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-30890,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30891,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N  
+
+(Note: The attack is local (L) as it involves Local File Inclusion, high complexity (H) due to specific file manipulation required, no privileges needed (N), no user interaction (N), scope unchanged (U), low confidentiality impact (L) since sensitive data access depends on the included file, high integrity impact (I) as arbitrary code execution can modify data or system state, and no availability impact (A) unless it disrupts service indirectly.)"
+CVE-2025-30892,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30893,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30894,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30895,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: This vector is based on typical assumptions for a Path Traversal vulnerability that allows PHP Local File Inclusion. Adjustments may be necessary with more specific information.)"
+CVE-2025-30896,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30897,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30898,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: The vector components are based on typical assumptions for Stored XSS vulnerabilities, with Confidentiality, Integrity, and Availability all considered high due to the nature of such attacks.)"
+CVE-2025-30899,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-30900,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+CVE-2025-30901,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30902,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30903,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30904,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-30905,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+CVE-2025-30906,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-30907,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-30908,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:X/A:X
+
+"
+CVE-2025-30909,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30910,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-30911,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The vector is based on common characteristics of code injection vulnerabilities, assuming remote access (N), low complexity (L), no privileges required (N), no user interaction (N), scope changed due to the potential for data integrity and confidentiality impacts, and high impact on all metrics.)"
+CVE-2025-30912,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30913,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-30914,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+Note:  
+- AV:N (Network) because the vulnerability can be exploited remotely via the network.  
+- AC:L (Low) due to the nature of SSRF vulnerabilities typically not requiring complex steps beyond crafting a malicious request.  
+- PR:N (None) as no authentication or privilege is needed by an attacker to exploit this vulnerability.  
+- UI:N (None) since the exploitation does not require any interaction from a user once initiated.  
+- S:C (Changed) because SSRF often changes the scope of access by allowing interactions with internal resources.  
+- C:H (High) as sensitive data could potentially be accessed or manipulated over the network.  
+- I:N (None) assuming no integrity impact is specified in the description.  
+- A:N (None) as availability isn't directly affected according to the CVE details provided."
+CVE-2025-30915,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30916,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-30917,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-30918,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-30919,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-30920,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-30921,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-30922,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-30923,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-30924,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-30925,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30926,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-30961,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-30963,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-3097,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N
+CVE-2025-30971,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-3098,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-30987,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-3099,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31001,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31010,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31016,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+
+"
+CVE-2025-31024,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31031,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31043,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-3105,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31073,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-31074,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31075,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31076,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+"
+CVE-2025-31077,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31078,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-31079,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31080,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31081,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31082,"CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31083,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+CVE-2025-31084,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31085,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-31086,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+CVE-2025-31087,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: This is an assumption based on typical characteristics of a deserialization vulnerability involving untrusted data leading to object injection, which often impacts confidentiality, integrity, and availability at high levels when no user interaction or privileges are required.)"
+CVE-2025-31088,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31089,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31090,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-31091,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31092,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31093,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31094,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31095,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31096,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: This vector assumes network access to the web application, low complexity due to typical XSS attack vectors, no privileges required, no user interaction needed for exploitation, unchanged scope as it does not affect other components, and high impact on confidentiality, integrity, and availability.)"
+CVE-2025-31097,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31098,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H  
+
+"
+CVE-2025-31099,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31101,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31102,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31116,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31119,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31123,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31124,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-31125,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31126,"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:N
+
+"
+CVE-2025-31127,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N  
+"
+CVE-2025-31129,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31130,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+(Note: The vector components are derived as follows:  
+- **Attack Vector (AV):** Network, because the attack can be executed remotely over a network by exploiting the vulnerability in gitoxide when used with standard SHA-1 hashing.  
+- **Attack Complexity (AC):** Low, as it requires no special conditions other than being able to generate or provide colliding hashes.  
+- **Privileges Required (PR):** None, indicating that no user privileges are needed beyond accessing a vulnerable system.  
+- **User Interaction (UI):** None, as the attack can be executed without any interaction from the end user.  
+- **Scope (S):** Changed, because exploiting this vulnerability impacts components beyond their security scope due to hash collisions affecting integrity checks and the Git object model.  
+- **Confidentiality (C):** High, given that a successful exploit could allow an attacker unauthorized access to sensitive data.  
+- **Integrity (I):** High, since altering or substituting Git objects can lead to significant changes in data integrity.  
+- **Availability (A):** Low, as the primary impact is on confidentiality and integrity rather than availability.)"
+CVE-2025-31131,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31132,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31135,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+(Note: Based on the description, Attack Vector is Network (N) because it can be exploited over the network via SMTP. Attack Complexity is Low (L) as no special conditions are needed beyond enabling ProxyOn. Privileges Required are None (N) since an attacker doesn't need specific privileges to exploit this. User Interaction is None (N) as the attack does not require direct user interaction beyond sending commands. Scope Changed (C) because it allows spoofing and affects system resources differently than initially configured. Confidentiality impact is High (H) due to potential IP address spoofing; Integrity and Availability impacts are None (N) since they aren't directly affected by this vulnerability.)"
+CVE-2025-31139,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31140,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31141,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+"
+CVE-2025-31160,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+
+(Note: The attack vector is Local (L) because it requires local access, Attack Complexity is Low (L) as no complex steps are needed beyond running processes, Privileges Required is None (N) since unprivileged users can exploit this, User Interaction is None (N) as there's no need for user interaction to trigger the vulnerability, Scope is Unchanged (U) because it does not affect other components or networks, and Availability is High (H) due to the denial of service impact.)"
+CVE-2025-31161,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-31162,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+CVE-2025-31163,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+CVE-2025-31164,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+CVE-2025-31176,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+CVE-2025-31178,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H  
+
+"
+CVE-2025-31179,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H  
+
+"
+CVE-2025-31180,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
+CVE-2025-31181,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+CVE-2025-31282,"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L
+
+"
+CVE-2025-31283,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-31284,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+(Note: The Attack Vector is Network (N) as administrators could exploit this remotely, Attack Complexity is Low (L), Privileges Required are None (N) since an administrator can execute the attack without additional privileges, User Interaction is None (N) because no interaction from a user beyond initial access is required. Scope is Changed (C) due to potential privilege escalation impacting other components of the system. The impact on Confidentiality and Integrity is High (H) due to unauthorized privilege changes, while Availability is Low (L) as it does not directly disrupt service functionality.)"
+CVE-2025-31285,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:L
+
+"
+CVE-2025-31286,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31335,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31376,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31381,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31384,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31386,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31387,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31389,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31403,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+This vector is based on the characteristics of SQL Injection vulnerabilities:
+
+- **Attack Vector (AV)**: Network (N), as the vulnerability can be exploited over a network.
+- **Attack Complexity (AC)**: Low (L), because exploiting SQL Injection typically doesn't require complex steps or conditions.
+- **Privileges Required (PR)**: None (N), since an attacker does not need any special privileges to exploit this vulnerability.
+- **User Interaction (UI)**: None (N), as the exploitation can occur without user interaction, especially for Blind SQL Injection.
+- **Scope (S)**: Changed (C), due to the potential impact on data integrity and confidentiality beyond what was originally intended by the application.
+- **Confidentiality (C)**: High (H), because successful exploitation could lead to unauthorized access to sensitive data.
+- **Integrity (I)**: High (H), as attackers can modify or corrupt the database information.
+- **Availability (A)**: High (H), due to the potential for significant disruption, such as by deleting critical data."
+CVE-2025-31405,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31406,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31407,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31408,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L
+CVE-2025-31409,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+Note: This vector assumes that the XSS vulnerability can be exploited remotely (Network), with low complexity, without requiring any privileges or user interaction, does not change the scope, and could lead to high impacts on confidentiality, integrity, and availability if executed successfully."
+CVE-2025-31410,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31412,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31414,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31415,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31416,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31417,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31418,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31419,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31420,"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:N
+
+"
+CVE-2025-31421,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31431,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31432,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31433,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31434,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31435,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31436,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31437,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31438,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31439,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+CVE-2025-31440,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31441,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31442,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31443,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31444,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31445,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+This vector is based on the following analysis:
+
+- **AV (Attack Vector)**: Network (N) - The vulnerability involves reflected XSS, which occurs over a network.
+- **AC (Attack Complexity)**: Low (L) - Typically, exploiting XSS vulnerabilities does not require complex conditions beyond crafting malicious input.
+- **PR (Privileges Required)**: None (N) - Exploitation can be carried out without needing any privileges on the vulnerable system.
+- **UI (User Interaction)**: Required (R) - Reflected XSS requires user interaction to trigger, such as visiting a specific URL.
+- **S (Scope)**: Unchanged (U) - The vulnerability does not allow for an increase in scope from remote code execution to gaining access to other resources or data.
+- **C (Confidentiality)**: High (H) - Successful exploitation could lead to unauthorized disclosure of sensitive information stored on the user's device.
+- **I (Integrity)**: High (H) - The attack can potentially modify web page content, leading to high integrity impact.
+- **A (Availability)**: None (N) - The vulnerability does not directly affect system availability."
+CVE-2025-31446,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N  
+
+"
+CVE-2025-31447,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31448,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+(Note: The attack can be initiated remotely (Network), usually with low complexity (Low) and without user interaction (None), potentially changing the scope since it involves another site, allowing for a high impact on confidentiality if successful.)"
+CVE-2025-31449,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31450,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31451,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+"
+CVE-2025-31452,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31453,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31454,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31455,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31456,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31457,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31458,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31459,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31460,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31461,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31462,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31463,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-31464,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31465,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31466,"CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31467,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-31468,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-31469,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31470,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31471,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31472,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31473,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:L
+CVE-2025-31474,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+
+"
+CVE-2025-31479,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31480,"CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N
+
+"
+CVE-2025-31481,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31485,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31486,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31487,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31525,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31526,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31527,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31528,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The assumptions for this vector include an attack vector of Network (N) due to potential remote exploitation, low complexity (L), no privileges required (N), no user interaction (N), a changed scope (C) because it can lead to broader impacts beyond the target system, and high impact on confidentiality, integrity, and availability (H). Adjustments may be necessary based on more specific details from the CVE.)"
+CVE-2025-31529,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31530,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31531,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31532,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+
+"
+CVE-2025-31533,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L  
+
+(Note: The Attack Vector is Network (N) as it involves a web application; Attack Complexity is Low (L) due to lack of authorization checks; Privileges Required are None (N); User Interaction is None (N); Scope remains Unchanged (U); Confidentiality and Integrity impact are High (H) because sensitive data can be accessed or modified, while Availability impact is Low (L).)"
+CVE-2025-31534,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31535,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31536,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31537,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31538,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L  
+
+"
+CVE-2025-31539,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31540,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31541,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31542,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector assumes a network attack vector (N) due to potential remote exploitation, low complexity (L), no privileges required (N), no user interaction needed (N), scope changed (C) since the vulnerability allows access across different security domains in the application, and high impact on confidentiality (H), integrity (H), and availability (H). Adjustments may be necessary based on specific environmental factors.)"
+CVE-2025-31543,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31544,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31545,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-31546,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31547,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31548,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31549,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N
+
+"
+CVE-2025-3155,CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L
+CVE-2025-31550,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31551,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31552,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector assumes the SQL Injection allows remote access with no authentication, affecting confidentiality, integrity, and availability significantly.)"
+CVE-2025-31553,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31554,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31555,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31556,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31557,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31558,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31559,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31560,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The vector is based on typical interpretations for privilege escalation vulnerabilities, assuming network access, low complexity, no user interaction needed, changed scope due to privilege escalation, and high impacts on confidentiality, integrity, and availability.)"
+CVE-2025-31561,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31562,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31563,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31564,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The attack vector is Network due to remote exploitation via SQL Injection, attack complexity is low as no special conditions are needed beyond exploiting the injection vulnerability, no privileges required since it's a web application issue typically exploitable without authentication, user interaction is none because the vulnerability can be exploited automatically. Scope is changed because it allows access across different security contexts (e.g., database and server), confidentiality, integrity, and availability impacts are high due to potential full exposure of sensitive data, manipulation, and disruption of service.)"
+CVE-2025-31566,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:X/A:N
+CVE-2025-31567,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+CVE-2025-31568,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-31569,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N
+
+"
+CVE-2025-31570,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:L
+
+"
+CVE-2025-31571,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31572,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+--- 
+
+**Explanation of Each Component:**
+
+- **AV (Attack Vector): N (Network)**
+  - CSRF vulnerabilities are typically exploitable over the network, as they involve tricking a user into performing actions on a web application where they are authenticated.
+
+- **AC (Attack Complexity): L (Low)**
+  - The complexity is low because it only requires the attacker to craft malicious requests that can be sent via standard HTTP methods without needing any special conditions or techniques.
+
+- **PR (Privileges Required): N (None)**
+  - No privileges are required on the victim's device; the attack exploits the user's existing authenticated session.
+
+- **UI (User Interaction): R (Required)**
+  - User interaction is required because the attacker needs to trick the user into clicking a link or submitting a form, which initiates the CSRF request.
+
+- **S (Scope): U (Unchanged)**
+  - The scope remains unchanged as the vulnerability does not allow access to resources beyond those accessible by the victim's current session.
+
+- **C (Confidentiality): H (High)**
+  - Confidentiality impact is high because the attacker can perform actions on behalf of the user, potentially accessing sensitive data.
+
+- **I (Integrity): N (None)**
+  - Integrity impact is none as the attack does not alter data integrity; it only exploits existing sessions to perform unauthorized actions.
+
+- **A (Availability): N (None)**
+  - Availability impact is none because the attack does not disrupt service availability."
+CVE-2025-31573,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31574,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+
+"
+CVE-2025-31575,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31576,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31577,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31578,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+This vector is constructed based on typical characteristics of a reflected XSS vulnerability:
+
+- **AV (Attack Vector):** N (Network) because the attack can be carried out over the network via crafted requests.
+- **AC (Attack Complexity):** L (Low) as it generally requires no special conditions beyond sending malicious input.
+- **PR (Privileges Required):** N (None) since typically no privileges are required for executing a reflected XSS.
+- **UI (User Interaction):** R (Required) because the user must interact with the application to trigger the vulnerability, such as by clicking a link.
+- **S (Scope):** U (Unchanged) reflecting that it doesn't affect other components beyond the vulnerable one.
+- **C (Confidentiality), I (Integrity), A (Availability):** 
+  - C and I are set to H (High) because XSS can lead to unauthorized reading of data from the user's session or modification of web page content.
+  - A is set to N (None) as it typically doesn't impact availability."
+CVE-2025-31579,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31580,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31581,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31582,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31583,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31584,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31585,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31586,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31587,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31588,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31589,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31590,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+(Note: The assessment is based on common characteristics of XSS vulnerabilities, which typically involve network attack vectors (AV:N), low complexity (AC:L), no privileges required (PR:N), no user interaction needed (UI:N), unchanged scope (S:U), and high impact on confidentiality, integrity, and availability due to the nature of stored XSS.)"
+CVE-2025-31591,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31592,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N  
+
+"
+CVE-2025-31593,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31594,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31595,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31596,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L
+CVE-2025-31597,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The vector components are deduced based on typical characteristics of Stored XSS vulnerabilities affecting web applications, where remote access is possible (Network), exploitation can be straightforward (Low complexity), no privileges are needed to exploit the vulnerability (None required), user interaction is not needed for triggering the vulnerability after it has been injected (None), the attack changes the scope by involving different security contexts, and all impact metrics are set to High due to the potential severity of XSS attacks.)"
+CVE-2025-31598,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N
+CVE-2025-31600,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31601,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31602,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31603,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L  
+
+---  
+
+**Explanation of Components:**  
+
+- **AV (Attack Vector): N (Network)**  
+  - The vulnerability can be exploited remotely over a network, which is typical for web-based applications like spreadsheets that are accessible via the internet.  
+
+- **AC (Attack Complexity): L (Low)**  
+  - Exploiting the vulnerability does not require complex conditions; it merely requires accessing and interacting with the application as usual.  
+
+- **PR (Privileges Required): N (None)**  
+  - The attacker does not need any special privileges or authentication to exploit this vulnerability.  
+
+- **UI (User Interaction): N (None)**  
+  - No interaction from a user is required for exploitation, assuming the target spreadsheets are accessible.  
+
+- **S (Scope): C (Changed)**  
+  - Successful exploitation could impact confidentiality beyond its originally intended scope due to incorrect access control configurations.  
+
+- **C (Confidentiality): H (High)**  
+  - The vulnerability allows unauthorized access to confidential data, representing a high impact on confidentiality.  
+
+- **I (Integrity): L (Low)**  
+  - There is some potential for the integrity of data to be compromised due to incorrect access controls, but not extensively or critically.  
+
+- **A (Availability): L (Low)**  
+  - While availability might be affected if malicious actors disrupt service or modify content, this impact is generally low since it's a specific access control issue.  
+
+This vector assumes typical conditions for similar vulnerabilities in web applications where incorrect configurations lead to unauthorized data exposure without requiring user interaction beyond accessing the application."
+CVE-2025-31604,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31605,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31606,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31607,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31608,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31609,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31610,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+Note:  
+- AV is Network (N) because it involves a web application vulnerability exploitable over the network.  
+- AC is Low (L) due to the simplicity of exploiting XSS vulnerabilities.  
+- PR is None (N) as no privileges are needed.  
+- UI is Required (R) since user interaction is typically necessary for XSS attacks, such as clicking a link or visiting a page.  
+- S remains Unchanged (U) because it does not affect resources beyond the scope of the original request.  
+- C and I are High (H) due to the potential exposure of sensitive data and alteration of web content, respectively.  
+- A is None (N) as XSS typically does not impact availability."
+CVE-2025-31611,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31612,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31613,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31614,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-31615,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N  
+
+"
+CVE-2025-31616,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+---  
+
+**Explanation of Components:**
+
+- **Attack Vector (AV): Network (N)**  
+  CSRF vulnerabilities can be exploited over the network, as they involve tricking a user's browser into making unwanted requests to a web application.
+
+- **Attack Complexity (AC): Low (L)**  
+  Exploiting CSRF generally requires minimal effort and no special conditions beyond what an attacker can achieve through standard HTTP requests.
+
+- **Privileges Required (PR): None (N)**  
+  No authentication is required for the victim to be tricked into performing actions, as the attack leverages the user's authenticated session with the web application.
+
+- **User Interaction (UI): None (N)**  
+  The attack can occur without any interaction from the user once they are lured into visiting a malicious site or link.
+
+- **Scope (S): Unchanged (U)**  
+  CSRF does not change the scope of the vulnerability, as it typically affects only the target application and not the underlying system.
+
+- **Confidentiality (C): High (H)**  
+  The attacker can perform actions on behalf of the user, potentially accessing or modifying sensitive data without authorization.
+
+- **Integrity (I): None (N)**  
+  While CSRF can lead to unauthorized actions, it does not typically involve altering data integrity unless specifically designed to do so.
+
+- **Availability (A): None (N)**  
+  The attack is generally focused on unauthorized actions rather than impacting the availability of the service."
+CVE-2025-31617,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31618,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31619,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-31620,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31621,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-31622,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31623,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+"
+CVE-2025-31624,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-31625,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-31626,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-31627,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31628,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31629,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+(Note: The attack vector is Network (N) since it involves a web application vulnerability, Attack Complexity is Low (L) as exploiting XSS typically doesn't require complex actions or configurations, Privileges Required is None (N), User Interaction can be None (N) if the attack is automated through crafted requests, Scope is Changed (C) because the impact extends beyond the intended scope of access, and Impact on Confidentiality, Integrity, and Availability are High (H), Low (L), and None (N) respectively, assuming data theft and modification are possible but availability isn't directly affected.)"
+CVE-2025-31729,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31730,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+(Note: The Attack Vector is Network (N) because it involves web page generation, making it accessible over the network; Attack Complexity is Low (L) as exploiting XSS typically doesn't require complex steps; Privileges Required are None (N) since no special permissions are needed to exploit; User Interaction is Required (R) due to the nature of Stored XSS needing user interaction to trigger; Scope remains Unchanged (U) because it does not affect other components or increase privileges beyond the vulnerable context; Confidentiality, Integrity, and Availability impacts are High (H), Low (N), respectively, as XSS can lead to unauthorized access to sensitive data and data manipulation, but typically does not impact availability directly.)"
+CVE-2025-31731,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-31732,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-31733,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31734,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31735,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31736,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L
+CVE-2025-31737,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-31738,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31739,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L
+CVE-2025-31740,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+CVE-2025-31741,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31742,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31743,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31744,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31745,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+"
+CVE-2025-31746,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31747,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31748,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31749,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector assumes a network attack, low complexity, no privileges required, no user interaction, scope changed due to cross-site scripting, and high impact on confidentiality, integrity, and availability.)"
+CVE-2025-31750,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31751,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31752,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31753,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31754,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-31755,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector is based on an analysis of the described vulnerability, assuming remote network access without authentication (AV:N), low complexity for exploiting misconfigurations (AC:L), no privileges required since it's a missing authorization issue (PR:N), no user interaction needed (UI:N), scope changed as it affects confidentiality and integrity beyond the initial attack vector (S:C), high impact on confidentiality and integrity due to unauthorized data access or modification (C:H, I:H), and potentially high availability impact if the service is disrupted.)"
+CVE-2025-31756,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31757,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31758,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31759,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+CVE-2025-31760,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31761,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31762,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-31763,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31764,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+---"
+CVE-2025-31765,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31766,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31767,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31768,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31769,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31770,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31771,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-31772,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31773,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31774,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31775,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31776,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31777,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+This assessment is based on a missing authorization vulnerability that allows exploitation through network access without user interaction, leading to high impacts on confidentiality, integrity, and availability due to the change in scope from incorrectly configured access control security levels."
+CVE-2025-31778,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+
+"
+CVE-2025-31779,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31780,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31781,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31782,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31783,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31784,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31785,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31786,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-31787,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31788,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31789,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31790,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-31791,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31792,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31793,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N  
+
+"
+CVE-2025-31794,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31795,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31796,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31797,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+CVE-2025-31798,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31799,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-31800,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-31801,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31802,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31803,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-31804,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31805,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+---  
+
+**Explanation of Components:**  
+
+- **AV (Attack Vector): N (Network)**  
+  The vulnerability can be exploited over a network, as it involves web page generation accessible via the internet. This aligns with Stored XSS vulnerabilities which typically affect remote users.
+
+- **AC (Attack Complexity): L (Low)**  
+  Attack complexity is low because stored XSS attacks are generally straightforward to execute once the vulnerability has been identified and the malicious payload can be inserted into the affected system.
+
+- **PR (Privileges Required): N (None)**  
+  No specific privileges are required for an attacker to exploit this vulnerability, as it affects web page generation accessible by any user visiting the site.
+
+- **UI (User Interaction): N (None)**  
+  The attack does not require any additional interaction from a user beyond accessing the maliciously crafted webpage. Once the payload is stored and triggered, it executes automatically without further user action.
+
+- **S (Scope): U (Unchanged)**  
+  The impact on confidentiality, integrity, or availability doesn't extend outside of the affected component, thus scope remains unchanged.
+
+- **C (Confidentiality): H (High)**  
+  Stored XSS can lead to high impact on confidentiality as attackers may access sensitive information displayed on a user's browser.
+
+- **I (Integrity): H (High)**  
+  The integrity impact is high because stored XSS can modify data or scripts executed in the victim's browser, potentially altering content and behaviors without authorization.
+
+- **A (Availability): N (None)**  
+  This type of vulnerability typically does not affect availability; it impacts confidentiality and integrity rather than service disruption."
+CVE-2025-31806,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31807,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31808,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31809,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31810,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31811,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31812,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+Note: This vector assumes a remote attack via network (N), low complexity (L), no privileges required (N), user interaction required for the XSS exploit, unchanged scope (U), and high impacts on confidentiality and integrity with no impact on availability. Adjustments may be necessary based on further details or context."
+CVE-2025-31813,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31814,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31815,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31816,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The vector is based on typical assumptions for such vulnerabilities unless specific details indicate otherwise.)"
+CVE-2025-31817,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31818,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31819,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+CVE-2025-31820,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31821,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+(Note: The vector assumes network access (N) due to URL redirection, low complexity (L), no privileges required (N), user interaction required (R), unchanged scope (U), high impact on confidentiality (C) due to phishing risk, and no impact on integrity or availability.)"
+CVE-2025-31822,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31823,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-31824,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31825,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The assessment of the base metrics like Confidentiality (C), Integrity (I), and Availability (A) as High is based on a typical impact analysis for a Path Traversal vulnerability, assuming it can lead to unauthorized file access or modification.)"
+CVE-2025-31826,"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31827,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-31828,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31829,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31830,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31831,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L
+
+"
+CVE-2025-31832,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31833,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+---  
+
+**Reasoning:**  
+
+- **AV (Attack Vector): N (Network)**  
+  The vulnerability allows remote attackers to exploit the system over a network, which is typically the case for web applications and job boards that are accessible online.  
+
+- **AC (Attack Complexity): L (Low)**  
+  Exploiting this vulnerability does not require complex conditions or configurations beyond what is generally available to an attacker exploiting such vulnerabilities.
+
+- **PR (Privileges Required): N (None)**  
+  The attack can be executed without any special privileges, as it involves bypassing authorization controls that are typically enforced at a high level.
+
+- **UI (User Interaction): N (None)**  
+  The exploit does not require interaction with the user beyond the normal use of the web application's interface for accessing job listings.
+
+- **S (Scope): C (Changed)**  
+  Since exploiting this vulnerability affects access control, it changes the scope of the attack as it allows bypassing security mechanisms that are supposed to be in place.
+
+- **C (Confidentiality): H (High)**  
+  The impact on confidentiality is high because unauthorized access can lead to exposure of sensitive data typically associated with job listings and applications.
+
+- **I (Integrity): H (High)**  
+  Integrity is also highly impacted as the attacker could alter or manipulate job listings, potentially leading to misinformation or fraudulent activities.
+
+- **A (Availability): H (High)**  
+  The availability impact is high because exploiting this vulnerability can disrupt the normal functioning of the job board, affecting its reliability and service delivery.  
+
+---"
+CVE-2025-31834,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+This vector is derived as follows:
+- AV:N because the vulnerability can be exploited remotely without physical or adjacent network access.
+- AC:L due to the missing authorization control typically not requiring complex steps beyond sending a crafted request.
+- PR:N since no special privileges are required for exploitation.
+- UI:N as user interaction is not needed once the attack vector is initiated.
+- S:C because exploiting this vulnerability changes the scope of trust and may allow unauthorized access to other resources or data on the system.
+- C:H, I:H, A:H due to the high potential impact on confidentiality, integrity, and availability resulting from exploitation."
+CVE-2025-31835,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31836,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N  
+
+"
+CVE-2025-31837,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31838,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-31839,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31840,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31841,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31842,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31843,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-31844,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-31845,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31846,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31847,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+(Note: The chosen values assume that the vulnerability can be exploited remotely without authentication, requires user interaction due to DOM-based nature, and affects confidentiality and integrity but not availability.)"
+CVE-2025-31848,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-31849,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31850,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31851,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31852,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31853,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31854,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+---"
+CVE-2025-31855,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31856,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31857,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+CVE-2025-31858,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-31859,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31860,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31861,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+CVE-2025-31862,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31863,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-31864,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31865,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31866,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: These values are inferred based on typical scenarios for missing authorization vulnerabilities, considering they often allow remote exploitation with low complexity and no user interaction, leading to high impact when access control is bypassed.)"
+CVE-2025-31867,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31868,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31869,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-31870,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31871,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31872,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-31873,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N  
+
+"
+CVE-2025-31874,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N  
+
+(Note: The attack can be carried out remotely (Network), usually without high complexity (Low), and no privileges are required (None) with no user interaction (None). It has a scope change because it affects the integrity of the application itself. Confidentiality, Integrity, and Availability impacts are considered High due to the nature of XSS.)"
+CVE-2025-31875,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+This analysis is based on the following assumptions:
+
+- **Attack Vector (AV)**: Network (N) - The vulnerability occurs during web page generation, which typically involves network-based interactions.
+  
+- **Attack Complexity (AC)**: Low (L) - DOM-Based XSS vulnerabilities often require straightforward exploitation.
+
+- **Privileges Required (PR)**: None (N) - Exploiting XSS usually does not require elevated privileges.
+
+- **User Interaction (UI)**: Required (R) - User interaction is typically necessary to trigger the payload execution in DOM-based XSS attacks.
+
+- **Scope (S)**: Unchanged (U) - The impact remains within the same security context, as it exploits a vulnerability in client-side code execution without changing the application's state across different contexts.
+
+- **Confidentiality (C)**: High (H) - XSS can lead to exposure of sensitive information through scripts executed on a user’s browser.
+
+- **Integrity (I)**: High (H) - The integrity is compromised as malicious scripts can alter content or perform unauthorized actions.
+
+- **Availability (A)**: High (H) - While not directly impacting availability, the severity of impact due to confidentiality and integrity breaches justifies a high score."
+CVE-2025-31876,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31877,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31878,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31879,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31880,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31881,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31882,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31883,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31884,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31885,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31886,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The Attack Vector is assumed to be Network (N) due to the nature of web application vulnerabilities, which are typically exploitable over the network. Access Control issues often lead to high impacts on confidentiality and integrity, hence marked as High (H). Availability impact can also be considered high if the exploitation allows for denial of service or other disruptive actions.)"
+CVE-2025-31887,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31888,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31889,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31890,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31891,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31892,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-31893,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-31894,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+
+"
+CVE-2025-31895,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-31896,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+(Note: Based on the description of a ""Missing Authorization"" vulnerability with ""Incorrectly Configured Access Control Security Levels,"" it suggests a network attack vector (N), low complexity due to incorrect configurations (L), no privileges required (N), and no user interaction needed (N). The scope is changed (C) as access control issues generally affect other components. Confidentiality impact is high (H) since data can be accessed, with no integrity or availability impacts directly implied.)"
+CVE-2025-31897,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-31898,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31899,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+(Note: The vector is based on typical assumptions for a reflected XSS vulnerability where:
+
+- AV:N (Network) because the attack can be executed over the network.
+- AC:L (Low) as it generally requires minimal effort beyond crafting input data.
+- PR:N (None) since no special privileges are needed to exploit this vulnerability.
+- UI:R (Required) because user interaction is typically necessary for a reflected XSS attack.
+- S:U (Unchanged) as the scope does not extend beyond the original security context.
+- C:H (High), I:H (High) due to potential impact on confidentiality and integrity through script execution in users' browsers.
+- A:N (None) assuming no direct impact on availability.)"
+CVE-2025-31900,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31901,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-31902,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31903,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-31904,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31905,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31906,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-31907,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-31908,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-31909,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-3191,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-31910,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-31911,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-3192,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+"
+CVE-2025-3194,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L
+CVE-2025-3197,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-32049,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+
+"
+CVE-2025-32050,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-32051,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+
+"
+CVE-2025-32052,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32053,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N  
+
+"
+CVE-2025-32054,CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N
+CVE-2025-32111,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32112,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-32113,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32118,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32120,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32121,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-32122,"CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:L  
+
+"
+CVE-2025-32124,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+CVE-2025-32125,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32126,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32127,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32129,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32130,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-32131,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N
+
+"
+CVE-2025-32132,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+--- 
+
+**Explanation of Vector Components:**
+
+- **Attack Vector (AV): N**
+  - The vulnerability is via a web page, implying network access is required to exploit it.
+
+- **Attack Complexity (AC): L**
+  - The attack can be carried out with relatively low complexity, as it involves input manipulation through user interaction on the application interface.
+
+- **Privileges Required (PR): N**
+  - No special privileges are needed; a regular user interacting with the web application can exploit this vulnerability.
+
+- **User Interaction (UI): N**
+  - The attack is automated once initiated. An attacker does not need to interact further, aside from possibly crafting the initial input.
+
+- **Scope (S): C**
+  - The scope changes because the impact of exploitation involves different security groups (e.g., confidentiality breach affecting data access).
+
+- **Confidentiality (C): H**
+  - A high impact on confidentiality due to potential unauthorized access and execution of scripts, leading to exposure or theft of sensitive information.
+
+- **Integrity (I): N**
+  - The integrity impact is not directly affected; the vulnerability doesn't necessarily modify data integrity.
+
+- **Availability (A): N**
+  - There's no direct impact on availability since the attack primarily affects confidentiality."
+CVE-2025-32133,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-32134,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-32135,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+Note: This assessment assumes that exploitation can occur over a network (N), requires low complexity (L), does not require privileges (N), and no user interaction is needed (N). The scope changes due to the nature of XSS affecting data confidentiality, integrity, and availability at high levels."
+CVE-2025-32136,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32137,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+CVE-2025-32138,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+This assessment is based on an XML External Entity (XXE) injection vulnerability, which typically allows remote attackers to execute code or access sensitive data over the network without requiring user interaction or privileges, affecting confidentiality and integrity while potentially leading to availability issues."
+CVE-2025-32141,"CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-32142,"CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N  
+
+"
+CVE-2025-32146,"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-32147,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32148,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32149,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32150,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N  
+
+Note: This assessment assumes Local File Inclusion (LFI) with a high attack complexity due to required specific conditions, no privileges needed beyond basic access, no user interaction, unchanged scope, and potential impact on confidentiality and integrity if sensitive files are included. Availability is not directly impacted by this vulnerability."
+CVE-2025-32151,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:H  
+
+This vector is based on the following considerations:
+
+- **AV (Attack Vector):** L (Local) - The vulnerability involves local file inclusion, meaning it requires access to the system where the software is running.
+  
+- **AC (Attack Complexity):** H (High) - Exploiting this vulnerability may require specific conditions or additional steps beyond simply invoking a function.
+
+- **PR (Privileges Required):** N (None) - The attacker does not need any special privileges to exploit this vulnerability, other than access to the vulnerable application interface.
+
+- **UI (User Interaction):** N (None) - No user interaction is required for exploitation. The attack can be executed automatically once conditions are met.
+
+- **S (Scope):** C (Changed) - This vulnerability allows for a change in scope because it involves including files from different locations, potentially affecting the application's behavior significantly.
+
+- **C (Confidentiality):** H (High) - Successful exploitation could lead to unauthorized access to sensitive data, thus impacting confidentiality at a high level.
+
+- **I (Integrity):** N (None) - There is no direct impact on the integrity of the application or its data from this vulnerability as described.
+
+- **A (Availability):** H (High) - The availability can be significantly impacted if critical files are included, potentially causing the application to crash or behave unpredictably."
+CVE-2025-32152,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32153,CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32154,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32155,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+This vector assumes a network-based attack with low complexity and no privileges required, without user interaction, changing scope, and having high impacts on confidentiality, integrity, and availability due to the nature of PHP Remote File Inclusion vulnerabilities."
+CVE-2025-32156,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32157,"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:H/A:H  
+
+This assumes:
+- Attack Vector is Local (L) as it involves local file inclusion.
+- Attack Complexity is High (H) due to specific conditions needed for exploitation.
+- Privileges Required are None (N) since the vulnerability can be exploited without additional privileges.
+- User Interaction is None (N) because no user interaction is required.
+- Scope is Changed (C) since exploiting this affects resources beyond the intended scope.
+- Confidentiality Impact is Low (L) as sensitive data might be accessed but not necessarily exposed to unauthorized users.
+- Integrity Impact is High (H) due to potential execution of malicious scripts altering system behavior or files.
+- Availability Impact is High (H) because executing malicious code could disrupt service availability."
+CVE-2025-32159,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-32161,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N  
+
+"
+CVE-2025-32162,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32163,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-32165,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-32166,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+
+Note: This assumes a network attack due to its web context, low complexity, no privileges required, no user interaction (since it's stored XSS), unchanged scope as the same user session is targeted, and high impact on confidentiality and integrity with no impact on availability. Adjustments may be necessary based on additional specific details of the vulnerability."
+CVE-2025-32167,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-32168,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32169,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+CVE-2025-32170,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32171,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32172,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-32173,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-32174,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32175,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-32176,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32177,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32178,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-32179,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:X/A:X  
+
+"
+CVE-2025-32181,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H  
+
+(Note: The assessment here assumes network access due to web application context, low attack complexity for XSS vulnerabilities, no privileges required, user interaction needed for stored XSS, scope changed due to browser context alteration, high impacts on confidentiality and integrity due to potential data theft/exfiltration or script execution, and availability impact due to denial of service capabilities.)"
+CVE-2025-32182,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: The attack is network-based as it involves a web application, requires no privileges and no user interaction. The scope changes because stored XSS typically affects other users viewing the content. The impact on confidentiality, integrity, and availability is high due to potential data theft, page manipulation, or service disruption.)"
+CVE-2025-32183,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+CVE-2025-32184,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32185,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32186,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+
+"
+CVE-2025-32187,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N  
+
+"
+CVE-2025-32188,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:X/A:X
+
+"
+CVE-2025-32189,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-32190,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+CVE-2025-32191,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-32192,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+CVE-2025-32193,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32194,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32195,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-32196,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32197,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32200,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  
+
+"
+CVE-2025-32201,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32203,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32204,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+CVE-2025-32207,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+"
+CVE-2025-32217,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32218,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32219,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+"
+CVE-2025-32220,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-32224,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-32225,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+
+"
+CVE-2025-32226,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32229,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-32231,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32232,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+CVE-2025-32233,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+"
+CVE-2025-32234,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+"
+CVE-2025-32235,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32237,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L
+CVE-2025-32238,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32239,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32241,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32246,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+
+This vector is generated based on the typical characteristics of a Missing Authorization vulnerability:
+
+- **AV (Attack Vector):** N (Network) - The issue typically allows remote access without authorization.
+- **AC (Attack Complexity):)** L (Low) - Typically, exploiting missing authorization requires little effort if the system is exposed.
+- **PR (Privileges Required):** N (None) - No special privileges are required to exploit this vulnerability.
+- **UI (User Interaction):** N (None) - The attack can be automated without user interaction.
+- **S (Scope):** U (Unchanged) - This kind of vulnerability typically does not affect the scope of access beyond what is initially allowed.
+- **C (Confidentiality), I (Integrity), A (Availability):** H (High) - Such vulnerabilities often allow full compromise of confidentiality, integrity, and availability."
+CVE-2025-32247,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32248,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-32249,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32250,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32251,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+"
+CVE-2025-32252,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+
+(Note: This vector assumes network exploitation is possible (AV:N), low complexity (AC:L), no privileges required (PR:N), no user interaction needed (UI:N), scope changed due to access control issues (S:C), and high impact on confidentiality, integrity, and availability (C:H, I:H, A:H). Adjustments may be necessary based on specific vulnerability details.)"
+CVE-2025-32253,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+
+--- 
+
+**Explanation of Vector Components:**
+
+- **Attack Vector (AV): N**  
+  The vulnerability can be exploited over the network without any need for physical access, indicating a Network attack vector.
+
+- **Attack Complexity (AC): L**  
+  Exploiting the vulnerability does not require complex conditions; it is straightforward, so the complexity is Low.
+
+- **Privileges Required (PR): N**  
+  The attacker does not need any special privileges to exploit this vulnerability. Therefore, no privileges are required.
+
+- **User Interaction (UI): N**  
+  No user interaction is needed for an attacker to exploit this vulnerability. It can be exploited automatically or with minimal manual input.
+
+- **Scope (S): U**  
+  The impact of exploiting the vulnerability does not extend beyond the targeted component. Hence, the scope remains Unchanged.
+
+- **Confidentiality (C): H**  
+  Unauthorized access could lead to a complete loss of confidentiality as the attacker might gain full access to sensitive functionality not properly constrained by ACLs.
+
+- **Integrity (I): N**  
+  There is no indication that this vulnerability impacts data integrity, so it remains None.
+
+- **Availability (A): N**  
+  The description does not suggest any impact on availability; thus, the availability impact is None."
+CVE-2025-32254,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-32255,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-32256,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+CVE-2025-32257,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32258,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N  
+
+"
+CVE-2025-32261,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32262,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32263,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32264,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32265,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32266,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32267,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32268,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+CVE-2025-32269,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32270,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32271,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32272,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+
+"
+CVE-2025-32273,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+CVE-2025-32274,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32276,"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N  
+
+"
+CVE-2025-32277,"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+"
+CVE-2025-32278,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+CVE-2025-32280,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
