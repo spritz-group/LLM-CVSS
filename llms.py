@@ -170,7 +170,6 @@ ollama_models = [
     'phi4',
     'deepseek-r1:8b',
     'mistral',
-    'qwq',
     'qwen2.5:14b',
 ]
 
