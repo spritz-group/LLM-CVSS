@@ -165,7 +165,7 @@ def construct_score_prompt(row):
 
 def query_openai(model, prompt):
     try:
-        response = client.responses.create(
+        response = clientOA.responses.create(
             model=model,
             input=prompt,
             )
@@ -183,27 +183,52 @@ def query_ollama(model, prompt):
         return "N/A"
 
 
+def query_openrouter(model, prompt):
+    try:
+        completion = clientOR.chat.completions.create(
+            model=model,
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
+        return completion.choices[0].message.content
+    except Exception as e:
+        return f"N/A"
+
+
+def sanitize_model_name(model_name):
+    return model_name.replace("/", "_").replace(":", "_")
+
 
 # Requires APIs
-useOpenAI = True
+useOpenAI = False
+useOpenRouter = False
 
 # Dataset sampling
 sample_size = 1000
 
 # Defining models
 ollama_models = [
-    # 'llama3.2',
-    # 'gemma3:12b',
-    # 'phi4',
+    'llama3.2',
+    'gemma3:12b',
+    'phi4',
     'deepseek-r1:8b',
-    # 'mistral',
-    # 'qwen2.5:14b',
+    'mistral',
+    'qwen2.5:14b',
 ]
 
 openai_models = [
-    # 'gpt-4o-mini',
-    # 'gpt-4o',
-    # 'gpt-3.5-turbo',
+    'gpt-4o-mini',
+    'gpt-4o',
+    'gpt-3.5-turbo',
+]
+
+openrouter_models = [
+    'meta-llama/llama-4-maverick:free',
+    'deepseek/deepseek-r1:free',
 ]
 
 # CVSS Components
@@ -235,8 +260,14 @@ CVSS_COMPONENTS = {
 }
 
 if useOpenAI:
-    client = OpenAI(
+    clientOA = OpenAI(
         api_key=os.environ.get("OPENAI_API_KEY"),
+    )
+
+if useOpenRouter:
+    clientOR = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key='YOUR_KEY_HERE'
     )
 
 # Create folder for LLM CSVs if it doesn't exist
@@ -249,19 +280,27 @@ if not os.path.exists(results_folder):
 df = pd.read_parquet('./dataset.parquet')
 df = df.tail(sample_size).sort_values(by='cve_id')
 
-models = ollama_models if not useOpenAI else openai_models + ollama_models
+models = []
+
+if useOpenAI:
+    models += openai_models
+if useOpenRouter:
+    models += openrouter_models
+
+models += ollama_models
 
 for llm in models:
     # Create a folder for each model
-    model_results_folder = os.path.join(results_folder, llm.replace(":", "_"))
+    model_safe_name = sanitize_model_name(llm)
+    model_results_folder = os.path.join(results_folder, model_safe_name.replace(":", "_"))
     if not os.path.exists(model_results_folder):
         os.makedirs(model_results_folder)
     # Output file paths
-    # output_components = os.path.join(model_results_folder, f'{llm.replace(":", "_")}_components.csv')
-    # output_vector = os.path.join(model_results_folder, f'{llm.replace(":", "_")}_vector.csv')
-    # output_vector_few_shot = os.path.join(model_results_folder, f'{llm.replace(":", "_")}_vector_few_shot.csv')
-    # output_cwe_vector = os.path.join(model_results_folder, f'{llm.replace(":", "_")}_cwe_vector.csv')
-    output_score = os.path.join(model_results_folder, f'{llm.replace(":", "_")}_score.csv')
+    output_components = os.path.join(model_results_folder, f'{model_safe_name.replace(":", "_")}_components.csv')
+    output_vector = os.path.join(model_results_folder, f'{model_safe_name.replace(":", "_")}_vector.csv')
+    output_vector_few_shot = os.path.join(model_results_folder, f'{model_safe_name.replace(":", "_")}_vector_few_shot.csv')
+    output_cwe_vector = os.path.join(model_results_folder, f'{model_safe_name.replace(":", "_")}_cwe_vector.csv')
+    output_score = os.path.join(model_results_folder, f'{model_safe_name.replace(":", "_")}_score.csv')
 
     components_results = []
     vector_results = []
@@ -271,61 +310,67 @@ for llm in models:
 
     for index, row in tqdm(df.iterrows(), total=df.shape[0], desc=f"{llm}"):
         # Constructing prompts
-        # component_prompts = {}
-        # for component, (options, description) in CVSS_COMPONENTS.items():
-        #     prompt = construct_component_prompt(row, component, options, description)
-        #     component_prompts[component] = prompt
-        # vector_prompt = construct_vector_prompt(row)
-        # vector_few_shot_prompt = construct_vector_few_shot_prompt(row)
-        # cwe_vector_prompt = construct_cwe_vector_prompt(row)
+        component_prompts = {}
+        for component, (options, description) in CVSS_COMPONENTS.items():
+            prompt = construct_component_prompt(row, component, options, description)
+            component_prompts[component] = prompt
+        vector_prompt = construct_vector_prompt(row)
+        vector_few_shot_prompt = construct_vector_few_shot_prompt(row)
+        cwe_vector_prompt = construct_cwe_vector_prompt(row)
         score_prompt = construct_score_prompt(row)
 
         # Querying Ollama models
         if llm in ollama_models:
-            # component_results = {component: query_ollama(llm, prompt) for component, prompt in component_prompts.items()}
-            # vector_result = query_ollama(llm, vector_prompt)
-            # vector_few_shot_result = query_ollama(llm, vector_few_shot_prompt)
-            # cwe_vector_result = query_ollama(llm, cwe_vector_prompt)
+            component_results = {component: query_ollama(llm, prompt) for component, prompt in component_prompts.items()}
+            vector_result = query_ollama(llm, vector_prompt)
+            vector_few_shot_result = query_ollama(llm, vector_few_shot_prompt)
+            cwe_vector_result = query_ollama(llm, cwe_vector_prompt)
             score_result = query_ollama(llm, score_prompt)
         # Querying OpenAI models
         elif llm in openai_models:
-            # component_results = {component: query_openai(llm, prompt) for component, prompt in component_prompts.items()}
-            # vector_result = query_openai(llm, vector_prompt)
-            # vector_few_shot_result = query_openai(llm, vector_few_shot_prompt)
-            # cwe_vector_result = query_openai(llm, cwe_vector_prompt)
+            component_results = {component: query_openai(llm, prompt) for component, prompt in component_prompts.items()}
+            vector_result = query_openai(llm, vector_prompt)
+            vector_few_shot_result = query_openai(llm, vector_few_shot_prompt)
+            cwe_vector_result = query_openai(llm, cwe_vector_prompt)
             score_result = query_openai(llm, score_prompt)
+        elif llm in openrouter_models:
+            component_results = {component: query_openrouter(llm, prompt) for component, prompt in component_prompts.items()}
+            vector_result = query_openrouter(llm, vector_prompt)
+            vector_few_shot_result = query_openrouter(llm, vector_few_shot_prompt)
+            cwe_vector_result = query_openrouter(llm, cwe_vector_prompt)
+            score_result = query_openrouter(llm, score_prompt)
 
-        # # Storing results
-        # components_results.append({
-        #     'cve_id': row['cve_id'],
-        #     **{f"{component}_response": component_results[component] for component in component_results}
-        # })
-        # vector_results.append({
-        #     'cve_id': row['cve_id'],
-        #     'response': vector_result
-        # })
-        # vector_few_shot_results.append({
-        #     'cve_id': row['cve_id'],
-        #     'response': vector_few_shot_result
-        # })
-        # cwe_vector_results.append({
-        #     'cve_id': row['cve_id'],
-        #     'response': cwe_vector_result
-        # })
+        # Storing results
+        components_results.append({
+            'cve_id': row['cve_id'],
+            **{f"{component}_response": component_results[component] for component in component_results}
+        })
+        vector_results.append({
+            'cve_id': row['cve_id'],
+            'response': vector_result
+        })
+        vector_few_shot_results.append({
+            'cve_id': row['cve_id'],
+            'response': vector_few_shot_result
+        })
+        cwe_vector_results.append({
+            'cve_id': row['cve_id'],
+            'response': cwe_vector_result
+        })
         score_results.append({
             'cve_id': row['cve_id'],
             'response': score_result
         })
 
         if index % 10 == 0:
-            # pd.DataFrame(components_results).to_csv(output_components, index=False)
-            # pd.DataFrame(vector_results).to_csv(output_vector, index=False)
-            # pd.DataFrame(vector_few_shot_results).to_csv(output_vector_few_shot, index=False)
-            # pd.DataFrame(cwe_vector_results).to_csv(output_cwe_vector, index=False)
+            pd.DataFrame(components_results).to_csv(output_components, index=False)
+            pd.DataFrame(vector_results).to_csv(output_vector, index=False)
+            pd.DataFrame(vector_few_shot_results).to_csv(output_vector_few_shot, index=False)
+            pd.DataFrame(cwe_vector_results).to_csv(output_cwe_vector, index=False)
             pd.DataFrame(score_results).to_csv(output_score, index=False)
 
-    # pd.DataFrame(components_results).to_csv(output_components, index=False)
-    # pd.DataFrame(vector_results).to_csv(output_vector, index=False)
-    # pd.DataFrame(vector_few_shot_results).to_csv(output_vector_few_shot, index=False)
-    # pd.DataFrame(cwe_vector_results).to_csv(output_cwe_vector, index=False)
+    pd.DataFrame(components_results).to_csv(output_components, index=False)
+    pd.DataFrame(vector_results).to_csv(output_vector, index=False)
+    pd.DataFrame(vector_few_shot_results).to_csv(output_vector_few_shot, index=False)
+    pd.DataFrame(cwe_vector_results).to_csv(output_cwe_vector, index=False)
     pd.DataFrame(score_results).to_csv(output_score, index=False)
