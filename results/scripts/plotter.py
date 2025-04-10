@@ -14,7 +14,7 @@ def generate_embeddings_csv():
 
     dataframes = {}
     for key, modelname in embedders.items():
-        file_path = f"../{key}.csv"
+        file_path = f"../embeddings/base/{key}.csv"
         df = pd.read_csv(file_path)
         df = df[df['model'] == 'xgboost']
         df['source'] = modelname  
@@ -78,7 +78,7 @@ def comparison():
     llm_df = llm_df[llm_df['model'] == 'gemma3_12b']
     llm_df['model'] = llm_df['model'].replace('gemma3_12b', 'Vanilla')
 
-    attack_bert_df = pd.read_csv("../embeddings/base/ATTACK-BERT.csv")
+    attack_bert_df = pd.read_csv("../embeddings/base/all-MiniLM-L6-v2.csv")
     attack_bert_df = attack_bert_df[attack_bert_df['model'] == 'xgboost']
     attack_bert_df['model'] = attack_bert_df['model'].replace('xgboost', 'Embeddings')
 
@@ -175,8 +175,8 @@ def confusion_matrix():
 
 ################################################
 if __name__ == "__main__":
-    llm_prompt_eng()
-    embeddings_enhancements()
+    #llm_prompt_eng()
+    #embeddings_enhancements()
     comparison()
-    confusion_matrix()
-    generate_embeddings_csv()
+    #confusion_matrix()
+    #generate_embeddings_csv()
